@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+
+    "lib": ["dom", "es2015.promise", "es5", "es6"],
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "mComments": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "noEmitHelpers": true,
+    "declaration": false,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictNullChecks": true,
+
+    "outDir": "./dist/",
+    "sourcem": true,
+    "noEmitOnError": false,
+    "noUnusedLocals": false,
+    "importHelpers": true,
+    "skipLibCheck": true,
+
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "files": [
+    "src/Lite/index.tsx",
+    "src/Pro/index.tsx"
+  ],
+  
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

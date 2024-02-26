@@ -1,0 +1,62 @@
+{
+    "operationalms": [{
+            "id": "HazardAreaQExtreme_8633",
+            "mm": "ArcGISmServicem",
+            "url": "https://ibbdr1081.gisinv.bg/arcgis/rest/services/BDIBR_RASTERS/HazardAreaQExtreme/mServer",
+            "visibility": true,
+            "visiblems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+            "opacity": 1,
+            "title": "ПУРН 2016-2021 Заплаха от наводнение при преминаване на катастрофална вълна"
+        }, {
+            "id": "HazardAreaQ1000_8843",
+            "mm": "ArcGISmServicem",
+            "url": "https://ibbdr1081.gisinv.bg/arcgis/rest/services/BDIBR_RASTERS/HazardAreaQ1000/mServer",
+            "visibility": true,
+            "visiblems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63],
+            "opacity": 1,
+            "title": "ПУРН 2016-2021 Заплаха от наводнение с малка вероятност (1000 години)"
+        }, {
+            "id": "HazardAreaQ100_3496",
+            "mm": "ArcGISmServicem",
+            "url": "https://ibbdr1081.gisinv.bg/arcgis/rest/services/BDIBR_RASTERS/HazardAreaQ100/mServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "ПУРН 2016-2021 Заплаха от наводнение със средна вероятност (100 години)"
+        }, {
+            "id": "HazardAreaQ20_5433",
+            "mm": "ArcGISmServicem",
+            "url": "https://ibbdr1081.gisinv.bg/arcgis/rest/services/BDIBR_RASTERS/HazardAreaQ20/mServer",
+            "visibility": true,
+            "visiblems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63],
+            "opacity": 1,
+            "title": "ПУРН 2016-2021 Заплаха от наводнение с голяма вероятност (20 години)"
+        }
+    ],
+    "basem": {
+        "basemms": [{
+                "id": "World_Hillshade_3805",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/arcgis/rest/services/Elevation/World_Hillshade/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Hillshade"
+            }, {
+                "id": "VectorTile_2333",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "World Topographic m",
+                "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/ms/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json",
+                "visibility": true,
+                "opacity": 1
+            }
+        ],
+        "title": "Topographic"
+    },
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "authoringApp": "WebmViewer",
+    "authoringAppVersion": "10.8.1",
+    "version": "2.16"
+}

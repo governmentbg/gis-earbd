@@ -1,0 +1,377 @@
+{
+    "operationalms": [
+        {
+            "id": "OpinionsPURN_1163",
+            "mm": "ArcGISFeaturem",
+            "url": "https://ibbdr1081.gisinv.bg/arcgis/sharing/servers/979165200ac14003a7d5920ba3feaa70/rest/services/BDIBR_OPINIONS/OpinionsPURN/FeatureServer/0",
+            "visibility": true,
+            "opacity": 1,
+            "mode": 1,
+            "title": "ПУРН становища",
+            "mId": "979165200ac14003a7d5920ba3feaa70",
+            "popupInfo": {
+                "title": "ПУРН становища: {organizaionm}",
+                "fieldInfos": [
+                    {
+                        "fieldm": "objectid",
+                        "label": "objectid",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "id",
+                        "label": "Идентификатор",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "opinionsnumber",
+                        "label": "№",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "receivinginformation",
+                        "label": "Начин на получаване на информацията",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "inputdate",
+                        "label": "Дата на постъпване",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldm": "inputnumber",
+                        "label": "Входящ номер",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "organizaionm",
+                        "label": "Тип институция",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "organizaionm",
+                        "label": "Наименование на институцията",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "riverbasin",
+                        "label": "Речен басейн",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "rzprn",
+                        "label": "РЗПРН",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "settlement",
+                        "label": "Населено място",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "municipality",
+                        "label": "Община",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "district",
+                        "label": "Област",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "personm",
+                        "label": "Представител",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "contactinfo",
+                        "label": "Координати за контакт",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "informationm",
+                        "label": "Вид на информацията",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "reflectionm",
+                        "label": "Начин на отразяване",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "note",
+                        "label": "Забележка",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "linksubmittedopinion",
+                        "label": "Линк към постъпилото становище",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "inputopinionm",
+                        "label": "Как е въведено становището",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "groundsnonreflective",
+                        "label": "Основание за неотразяване",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "created_user",
+                        "label": "created_user",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "created_date",
+                        "label": "created_date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldm": "last_edited_user",
+                        "label": "last_edited_user",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "last_edited_date",
+                        "label": "last_edited_date",
+                        "isEditable": false,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "dateFormat": "shortDateShortTime"
+                        }
+                    },
+                    {
+                        "fieldm": "receivinginformationm",
+                        "label": "Начин на получаване на информацията (вид)",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "suggestion",
+                        "label": "Предложение",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "users",
+                        "label": "Потребител",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "mress",
+                        "label": "Адрес",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "email",
+                        "label": "Електронна поща",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "phone",
+                        "label": "Телефон",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "description",
+                        "label": "Описание",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox"
+                    },
+                    {
+                        "fieldm": "isreflected",
+                        "label": "Отразено да/не",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldm": "isprocessed",
+                        "label": "Обработено да/не",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": true,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldm": "isvalid",
+                        "label": "Валидно да/не",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    },
+                    {
+                        "fieldm": "purnperiod",
+                        "label": "Цикъл",
+                        "isEditable": true,
+                        "tooltip": "",
+                        "visible": false,
+                        "stringFieldOption": "textbox",
+                        "format": {
+                            "places": 0,
+                            "digitSeparator": true
+                        }
+                    }
+                ],
+                "description": null,
+                "showAttachments": true,
+                "mediaInfos": []
+            }
+        }
+    ],
+    "basem": {
+        "basemms": [
+            {
+                "id": "World_Hillshade_3805",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/arcgis/rest/services/Elevation/World_Hillshade/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Hillshade"
+            },
+            {
+                "id": "VectorTile_2333",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "World Topographic m",
+                "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/ms/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json",
+                "visibility": true,
+                "opacity": 1
+            }
+        ],
+        "title": "Topographic"
+    },
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "authoringApp": "WebmViewer",
+    "authoringAppVersion": "10.8.1",
+    "version": "2.16",
+    "applicationmerties": {
+        "viewing": {
+            "routing": {
+                "enabled": true
+            },
+            "basemGallery": {
+                "enabled": true
+            },
+            "measure": {
+                "enabled": true
+            }
+        }
+    }
+}

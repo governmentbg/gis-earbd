@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Specific\\BaseProject-v0.6"
+		},
+		{
+			"path": "..\\ConfigProject"
+		}
+	],
+	"settings": {}
+}

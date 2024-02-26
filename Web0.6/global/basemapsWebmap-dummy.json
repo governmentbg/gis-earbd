@@ -1,0 +1,24 @@
+{
+    "operationalms": [],
+    "basem": {
+        "basemms": [
+            {
+                "id": "World_Street_m_8421",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/World_Street_m/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Street m"
+            }
+        ],
+        "title": "World Imagery"
+    },
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "version": "2.9",
+    "authoringApp": "ArcGIS Pro",
+    "authoringAppVersion": "12.4.0.19948",
+    "tables": []
+}

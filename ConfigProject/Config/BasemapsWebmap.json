@@ -1,0 +1,244 @@
+{
+    "operationalms": [],
+    "basem": {
+        "basemms": [
+            {
+                "id": "World_Dark_Gray_Base",
+                "title": "World Dark Gray Canvas Base",
+                "visibility": true,
+                "opacity": 1,
+                "url": "https://services.arcgisonm.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/mServer",
+                "mm": "ArcGISTiledmServicem"
+            },
+            {
+                "id": "World_Dark_Gray_Reference",
+                "title": "World Dark Gray Reference",
+                "visibility": true,
+                "opacity": 1,
+                "url": "https://services.arcgisonm.com/arcgis/rest/services/Canvas/World_Dark_Gray_Reference/mServer",
+                "mm": "ArcGISTiledmServicem"
+            },
+            {
+                "id": "World_Imagery",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/World_Imagery/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Imagery"
+            },
+            {
+                "id": "World_Boundaries_and_Places",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Boundaries and Places"
+            },
+            {
+                "id": "World_Street_m",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/World_Street_m/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Street m"
+            },
+            {
+                "id": "World_Topo_m",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/World_Topo_m/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Topographic m"
+            },
+            {
+                "id": "World_Light_Gray_Base",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Light Gray Canvas Base"
+            },
+            {
+                "id": "World_Light_Gray_Reference",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Light Gray Reference"
+            },
+            {
+                "id": "NatGeo_World_m",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/NatGeo_World_m/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "National Geographic World m"
+            },
+            {
+                "id": "World_Terrain_Base",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/World_Terrain_Base/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Terrain Base"
+            },
+            {
+                "id": "World_Reference_Overlay",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/ArcGIS/rest/services/Reference/World_Reference_Overlay/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Terrain Reference"
+            },
+            {
+                "id": "Ocean_Basem",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/arcgis/rest/services/Ocean/World_Ocean_Base/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Ocean Base"
+            },
+            {
+                "id": "World_Ocean_Reference",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/arcgis/rest/services/Ocean/World_Ocean_Reference/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Ocean Reference"
+            },
+            {
+                "m": "OpenStreetm",
+                "mm": "OpenStreetm",
+                "title": "OpenStreetm",
+                "opacity": 1,
+                "visibility": true,
+                "id": "OpenStreetm"
+            },
+            {
+                "id": "World_Hillshade",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/arcgis/rest/services/Elevation/World_Hillshade/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Hillshade"
+            },
+            {
+                "id": "VectorTilem_World_Street_m_Local_Language",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "World Street m (Local Language)",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/7549fb39378a485ca0c9d18a2d968c15/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_World_Street_m_Night_Local_Language",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "World Street m (Night - Local Language)",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/f3a55a52222341a7aafc793174351bb8/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_World_Topographic_m_Local_Language",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "World Topographic m (Local Language)",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/0f52cd2d17ea4773944a1d0e0fb99ea4/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_OpenStreetm",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "OpenStreetm",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/3e1a00aeae81496587988075fe529f71/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_OpenStreetm_Vector_Basem",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "OpenStreetm Vector Basem",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/0d28c37f80f648238e32efce097450f1/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_OpenStreetm_Esri_Street_with_Relief_style",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "OpenStreetm (Esri Street with Relief style)",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/8f9cb35cec274e25b4c5d6m631f1f0/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_World_Navigation_m_Local_Language",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "World Navigation m (Local Language)",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/72be31d1fa6a42fc895d9a3c0fd8aeef/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_Hybrid_Reference_m_Local_Language",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "Hybrid Reference m (Local Language)",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/2a2e806e6e654ea78ecb705149ceae9f/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_Light_Gray_Canvas_Base",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "Light Gray Canvas Base",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/291da5eab3a0412593b66d384379f89f/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_Light_Gray_Canvas_Reference_Local_Language",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "Light Gray Canvas Reference (Local Language)",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/3ffec1551cd14606a286622c634b0bb4/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_Dark_Gray_Canvas_Base",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "Dark Gray Canvas Base",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/5e9b3685f4c24d8781073dd928ebda50/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            },
+            {
+                "id": "VectorTilem_Dark_Gray_Canvas_Reference_Local_Language",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "Dark Gray Canvas Reference (Local Language)",
+                "styleUrl": "https://www.arcgis.com/sharing/rest/content/ms/7465191cfa1f425fbe41e4d44450d559/resources/styles/root.json?f=pjson",
+                "visibility": true,
+                "opacity": 1
+            }
+        ],
+        "title": "All basems"
+    },
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "version": "2.9",
+    "authoringApp": "ArcGIS Pro",
+    "authoringAppVersion": "12.4.0.19948",
+    "tables": []
+}

@@ -1,0 +1,66 @@
+<!DOCm html>
+<html>
+<head>
+  <!-- <link rel="stylesheet" href="../../css/leftsidePanel.scss"> -->
+  <style>
+    .leftsidePanel-container {
+        width: 100%;
+        background-color: #DDDDDD;
+        position: absolute;
+        top: 0px;
+		border-style: solid;
+    }
+    .leftsidePanel-elemnts-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-ms: center;
+		border-style: solid;
+		background-color: #c2ffc4;
+    }
+      .leftsidePanel-title {
+        min-width: 10%;
+        margin: 10px;
+        pming: 5px;
+        font-size: 24px; 
+        font-style: normal; 
+        font-variant: normal; 
+        font-weight: 700; 
+        m-height: 26.4px;
+    }
+
+    .leftsidePanel-button {
+        background-color: #E9ECEF;
+        border: 1px solid transparent;
+        border-radius: 30px;
+        margin: 10px;
+        pming: 5px 10px;
+    }
+
+    .leftsidePanel-button:hover {
+        cursor: mer;
+        background-color: #AAAAAA;
+    }
+    .leftsidePanel-button > a:hover, a:visited, a:active, a:link, a {
+        text-decoration: none;
+        color: black;
+    }
+	.bottom{
+		border-bottom-style: none;
+	}
+	.upper{
+		border-top-style: none;
+	}
+  </style>
+</head>
+<body class="leftsidePanel-container">
+  <div class="leftsidePanel-elemnts-wrapper bottom">
+    <span class="leftsidePanel-title">This is a leftside panel of m Tab</span>
+    <span class="leftsidePanel-button ">Button</span>
+    <span class="leftsidePanel-button ">Височина 100%</span>
+  </div>
+  <div class="leftsidePanel-elemnts-wrapper upper">
+  <span class="leftsidePanel-title">It is a 1st child in a group panel (Височина 87%) between header and footer</span>
+  </div>
+</body>
+</html>
