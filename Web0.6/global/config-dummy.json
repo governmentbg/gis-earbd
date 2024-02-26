@@ -1,0 +1,47 @@
+{
+	"config": {
+		"version": 0.4,
+		"webms": {
+			"BasemsWebm": {
+				"url": "/basemsWebm-dummy.json"
+			}
+		},
+		"mGroups": {
+			"World_Street_m_8421": {
+				"mViews": [
+					{
+						"webmId": "BasemsWebm",
+						"basems": [
+							{
+								"id": "World_Street_m_8421"
+							}
+						]
+					}
+				]
+			}
+		},
+		"controller": {
+			"link_StartUp": {
+				"sources": [
+					{
+						"activity": "mInitialized"
+					}
+				],
+				"actionm": "execute",
+				"destinations": [
+					{
+						"id": "mGroups/World_Street_m_8421",
+						"activity": "mVisibleBasem"
+					}
+				]
+			}
+		},
+		"initState": {
+			"mosaicLayout": {
+				"currentTheme": "Blueprint",
+				"currentNode": "m",
+				"windowCount": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Lib\\V0.5"
+		},
+		{
+			"path": "..\\ConfigProject"
+		}
+	],
+	"settings": {}
+}

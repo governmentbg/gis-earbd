@@ -1,0 +1,108 @@
+.smallScroll .MuiTabs-scroller {
+  position: relative;
+  // overflow: auto !important;
+}
+.smallScroll .MuiTabs-flexContainer{
+  position: absolute;
+}
+
+.smallScroll .MuiTabs-scroller {
+  position: relative;
+  display: flex;
+  align-ms: center;
+}
+.text-style {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: none;
+}
+
+.text-style-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: none;
+  width: calc(100% - 155px);
+  justify-content: center;
+  text-align: center;
+  pming-left: 10px;
+  pming-right: 10px;
+  pming-top: 1px;
+  font-size: 15px;
+}
+.text-style-group {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: none;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  pming-left: 10px;
+  pming-right: 10px;
+  pming-top: 1px;
+  pming-bottom: 3px;
+  font-size: 15px;
+}
+
+span {
+  text-transform: none !important;
+}
+.accordion-sum {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 25px !important;
+  max-height: 35px !important;
+  align-content: center;
+  display: flex !important;
+  pming: 0px 16px !important;
+}
+.accordion-sum div:first-child  {
+  width: calc(100% - 40px);
+}
+.paper-details {
+  margin-top: 14px; 
+  position: relative; 
+  pming: 10px;
+  width: 100%;
+}
+.title-paper {
+  position: absolute;
+  top: -14px;
+  background-color: #ffffff;
+  left: 15px;
+  color: rgba(0, 0, 0, 0.63);
+  z-index: 100;
+  font-size: 14px;
+}
+.table-app .th-app {
+  background: #69b7fa !important;
+}
+
+
+.configErrorLink:hover {
+  cursor: mer;
+}
+// /* width */
+// .smallScroll::-webkit-scrollbar, .smallScroll div::-webkit-scrollbar {
+//     width: 5px;
+//   }
+  
+// /* Track */
+// .smallScroll::-webkit-scrollbar-track, .smallScroll div::-webkit-scrollbar-track {
+//   box-shadow: inset 0 0 5px grey; 
+//   border-radius: 10px;
+// }
+
+// /* Handle */
+// .smallScroll::-webkit-scrollbar-thumb, .smallScroll div::-webkit-scrollbar-thumb {
+// background: black; 
+// border-radius: 10px;
+// }
+
+// /* Handle on hover */
+// .smallScroll::-webkit-scrollbar-thumb:hover, .smallScroll div::-webkit-scrollbar-thumb:hover {
+//   background: gray; 
+// }

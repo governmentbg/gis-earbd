@@ -1,0 +1,300 @@
+{
+    "operationalms": [{
+            "id": "BG4_Basem_5590",
+            "mm": "ArcGISmServicem",
+            "url": "https://ibbdr1081.gisinv.bg/arcgis/rest/services/BDIBR_WEBSITES/BG4_Basem/mServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Базова карта",
+            "ms": [{
+                    "id": 0
+                }, {
+                    "id": 1,
+                    "popupInfo": {
+                        "title": "Землища: {m}",
+                        "fieldInfos": [{
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "ekatte",
+                                "label": "ЕКАТТЕ",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "m",
+                                "label": "Тип",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "m",
+                                "label": "Име",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "munid",
+                                "label": "Код на община",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "distrid",
+                                "label": "Код на област",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "kmetstvoid",
+                                "label": "Код на метство",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "shape",
+                                "label": "SHAPE",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "st_area(shape)",
+                                "label": "st_area(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }, {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                }, {
+                    "id": 2,
+                    "popupInfo": {
+                        "title": "Общини: {m}",
+                        "fieldInfos": [{
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "munid",
+                                "label": "Код на община",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "m",
+                                "label": "Име",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "ekatte",
+                                "label": "ЕКАТТЕ",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "shape",
+                                "label": "SHAPE",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "st_area(shape)",
+                                "label": "st_area(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }, {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                }, {
+                    "id": 3,
+                    "popupInfo": {
+                        "title": "Области: {m}",
+                        "fieldInfos": [{
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "distrid",
+                                "label": "Код на Област",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "m",
+                                "label": "Име",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "ekatte",
+                                "label": "ЕКАТТЕ",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "nuts2id",
+                                "label": "Статистически район",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "shape",
+                                "label": "SHAPE",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "st_area(shape)",
+                                "label": "st_area(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }, {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                }, {
+                    "id": 4,
+                    "popupInfo": {
+                        "title": "Граница на район за БУ: {rbdm}",
+                        "fieldInfos": [{
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "rbdcode",
+                                "label": "rbdCode",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "rbdm",
+                                "label": "rbdm",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "shape",
+                                "label": "SHAPE",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }, {
+                                "fieldm": "st_area(shape)",
+                                "label": "st_area(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }, {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                }
+            ]
+        }
+    ],
+    "basem": {
+        "basemms": [{
+                "id": "World_Hillshade_3805",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/arcgis/rest/services/Elevation/World_Hillshade/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Hillshade"
+            }, {
+                "id": "VectorTile_2333",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "World Topographic m",
+                "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/ms/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json",
+                "visibility": true,
+                "opacity": 1
+            }
+        ],
+        "title": "Topographic"
+    },
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "authoringApp": "WebmViewer",
+    "authoringAppVersion": "10.8.1",
+    "version": "2.16"
+}

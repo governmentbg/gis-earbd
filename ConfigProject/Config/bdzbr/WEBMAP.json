@@ -1,0 +1,1366 @@
+{
+    "operationalms": [
+        {
+            "id": "BG4_PORN_APSFR_2022_2027_1075",
+            "mm": "ArcGISmServicem",
+            "url": "https://ibbdr1081.gisinv.bg/arcgis/rest/services/BDIBR_WEBSITES/BG4_PORN_APSFR_2022_2027/mServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "БДЗБР",
+            "ms": [
+                {
+                    "id": 0,
+                    "popupInfo": {
+                        "title": "Проект на РЗПРН 2022-2027 точки: {apsfrcode}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "apsfrcode",
+                                "label": "Код на РЗПРН",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "location",
+                                "label": "Местоположение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "sourceofflooding",
+                                "label": "Източник на наводнение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "comment",
+                                "label": "Коментар",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "SHAPE",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "mdocument",
+                                "label": "Карта",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "passportdocument",
+                                "label": "Паспорт",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "rbdm",
+                                "label": "Райони на басейнови дирекции",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "m",
+                                "label": "Име",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 1,
+                    "popupInfo": {
+                        "title": "Проект на РЗПРН 2022-2027 линии: {apsfrcode}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "apsfrcode",
+                                "label": "Код на РЗПРН",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "location",
+                                "label": "Местоположение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "sourceofflooding",
+                                "label": "Източник на наводнение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "comment",
+                                "label": "Коментар",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "SHAPE",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "mdocument",
+                                "label": "Карта",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "passportdocument",
+                                "label": "Паспорт",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "rbdm",
+                                "label": "Райони на басейнови дирекции",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "m",
+                                "label": "Име",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 2,
+                    "popupInfo": {
+                        "title": "Проект на РЗПРН 2022-2027 полигон: {apsfrcode}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "apsfrcode",
+                                "label": "Код на РЗПРН",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "location",
+                                "label": "Местоположение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "sourceofflooding",
+                                "label": "Източник на наводнение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "comment",
+                                "label": "Коментар",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "SHAPE",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "mdocument",
+                                "label": "Карта",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "passportdocument",
+                                "label": "Паспорт",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "st_area(shape)",
+                                "label": "st_area(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "rbdm",
+                                "label": "Райони на басейнови дирекции",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "m",
+                                "label": "Име",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 3,
+                    "popupInfo": {
+                        "title": "РЗПРН 2016 \u2013 2021 линии: {mofaspf}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "objectid",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "euuomcode",
+                                "label": "Код за район",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "apsfrcode",
+                                "label": "Код на РЗПРН",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "lat",
+                                "label": "Ширина в ETRS89",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "lon",
+                                "label": "Дължина в ETRS89",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "mofaspf",
+                                "label": "Име на РЗПРН",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape_leng",
+                                "label": "shape_leng",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "mdocument",
+                                "label": "Карта",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "passportdocument",
+                                "label": "Паспорт",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "shape",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 4
+                },
+                {
+                    "id": 5,
+                    "popupInfo": {
+                        "title": "Минали наводнения (линии): {mspace}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "localid",
+                                "label": "localId",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "mspace",
+                                "label": "mspace",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "beginlife",
+                                "label": "beginLife",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "dateFormat": "shortDateShortTime"
+                                }
+                            },
+                            {
+                                "fieldm": "qualitval",
+                                "label": "qualitVal",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "quantival",
+                                "label": "quantiVal",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "uom",
+                                "label": "uom",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "featintid",
+                                "label": "featIntId",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "featintsch",
+                                "label": "featIntSch",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "thematicid",
+                                "label": "thematicId",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "idscheme",
+                                "label": "idScheme",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "SHAPE",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 6,
+                    "popupInfo": {
+                        "title": "Минали наводнения (полигони): {mspace}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "localid",
+                                "label": "localId",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "mspace",
+                                "label": "mspace",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "beginlife",
+                                "label": "beginLife",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "dateFormat": "shortDateShortTime"
+                                }
+                            },
+                            {
+                                "fieldm": "qualitval",
+                                "label": "qualitVal",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "quantival",
+                                "label": "quantiVal",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "uom",
+                                "label": "uom",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "featintid",
+                                "label": "featIntId",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "featintsch",
+                                "label": "featIntSch",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "thematicid",
+                                "label": "thematicId",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "idscheme",
+                                "label": "idScheme",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "SHAPE",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "st_area(shape)",
+                                "label": "st_area(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 7
+                },
+                {
+                    "id": 8,
+                    "popupInfo": {
+                        "title": "Значими наводнения точки: {fl_m}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "objectid",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "rbasin",
+                                "label": "Воден басейн",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "fl_m",
+                                "label": "Име",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "fl_river",
+                                "label": "Река",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "fl_code",
+                                "label": "Код",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "event",
+                                "label": "Събитие",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "past",
+                                "label": "За минали наводнения",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "future",
+                                "label": "Потенциални бъдещи наводнения",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "eu_cd_fl",
+                                "label": "Идентификатор на местоположението на събитие",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "shape",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 9,
+                    "popupInfo": {
+                        "title": "Значими наводнения линии: {fl_m}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "objectid",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "id",
+                                "label": "id",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "basin",
+                                "label": "Воден басейн",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "fl_m",
+                                "label": "Име",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "fl_river",
+                                "label": "Река",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "fl_code",
+                                "label": "Код",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "fl_event",
+                                "label": "Събитие",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "past",
+                                "label": "За минали наводнения",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "future",
+                                "label": "Потенциални бъдещи наводнения",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "length",
+                                "label": "Дължина",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "eu_cd_fl",
+                                "label": "Идентификатор на местоположението на събитие",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "shape",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 10,
+                    "popupInfo": {
+                        "title": "Значими наводнения полигон: {id}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "objectid",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "id",
+                                "label": "id",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "basin",
+                                "label": "Воден басейн",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "number_h",
+                                "label": "Номер",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "ektte",
+                                "label": "ЕКАТТЕ",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "sett_bg",
+                                "label": "sett_bg",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "oid_rvr",
+                                "label": "oid_rvr",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "dike",
+                                "label": "dike",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "описание",
+                                "label": "описание",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "river_bg",
+                                "label": "Реки БГ",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "municipali",
+                                "label": "municipali",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "region",
+                                "label": "region",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "area_clip",
+                                "label": "area_clip",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "suff_pop",
+                                "label": "suff_pop",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "category_f",
+                                "label": "Категории",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "fl_code",
+                                "label": "Код",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "eu_cd_fl",
+                                "label": "Идентификатор на местоположението на събитие",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "shape",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "st_area(shape)",
+                                "label": "st_area(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 11
+                },
+                {
+                    "id": 12,
+                    "popupInfo": {
+                        "title": "Потенциални бъдещи наводнения точки: {mspace}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "gml_id",
+                                "label": "gml_id",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "localid",
+                                "label": "Код на събитието",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "mspace",
+                                "label": "Местоположение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "identifier",
+                                "label": "identifier",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "identifi_1",
+                                "label": "identifi_1",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "determinat",
+                                "label": "Начин на определяне",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "hazardcate",
+                                "label": "hazardCate",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "featureofi",
+                                "label": "Код на РБУ",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "featureo_1",
+                                "label": "featureO_1",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "month",
+                                "label": "month",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "day",
+                                "label": "day",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "year",
+                                "label": "year",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "qualitativ",
+                                "label": "qualitativ",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "probabilit",
+                                "label": "probabilit",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "returnperi",
+                                "label": "Период на повторение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "assessment",
+                                "label": "assessment",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "magnitudeo",
+                                "label": "magnitudeO",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "Shape",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                },
+                {
+                    "id": 13,
+                    "popupInfo": {
+                        "title": "Потенциални бъдещи наводнения линии: {mspace}",
+                        "fieldInfos": [
+                            {
+                                "fieldm": "objectid",
+                                "label": "OBJECTID",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "gml_id",
+                                "label": "gml_id",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "localid",
+                                "label": "Код на събитието",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "mspace",
+                                "label": "Местоположение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "identifier",
+                                "label": "identifier",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "identifi_1",
+                                "label": "identifi_1",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "determinat",
+                                "label": "Начин на определяне",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "hazardcate",
+                                "label": "hazardCate",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "featureofi",
+                                "label": "Код на РБУ",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "featureo_1",
+                                "label": "featureO_1",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "month",
+                                "label": "month",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "day",
+                                "label": "day",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "year",
+                                "label": "year",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "qualitativ",
+                                "label": "qualitativ",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "probabilit",
+                                "label": "probabilit",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "returnperi",
+                                "label": "Период на повторение",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 0,
+                                    "digitSeparator": true
+                                }
+                            },
+                            {
+                                "fieldm": "assessment",
+                                "label": "assessment",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "magnitudeo",
+                                "label": "magnitudeO",
+                                "tooltip": "",
+                                "visible": true,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "shape",
+                                "label": "Shape",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox"
+                            },
+                            {
+                                "fieldm": "st_length(shape)",
+                                "label": "st_length(shape)",
+                                "tooltip": "",
+                                "visible": false,
+                                "stringFieldOption": "textbox",
+                                "format": {
+                                    "places": 2,
+                                    "digitSeparator": true
+                                }
+                            }
+                        ],
+                        "description": null,
+                        "showAttachments": true,
+                        "mediaInfos": []
+                    }
+                }
+            ]
+        }
+    ],
+    "basem": {
+        "basemms": [
+            {
+                "id": "World_Hillshade_3805",
+                "mm": "ArcGISTiledmServicem",
+                "url": "https://services.arcgisonm.com/arcgis/rest/services/Elevation/World_Hillshade/mServer",
+                "visibility": true,
+                "opacity": 1,
+                "title": "World Hillshade"
+            },
+            {
+                "id": "VectorTile_2333",
+                "m": "VectorTilem",
+                "mm": "VectorTilem",
+                "title": "World Topographic m",
+                "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/ms/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json",
+                "visibility": true,
+                "opacity": 1
+            }
+        ],
+        "title": "Topographic"
+    },
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "authoringApp": "WebmViewer",
+    "authoringAppVersion": "10.8.1",
+    "version": "2.16"
+}

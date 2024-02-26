@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "module": "amd",
+    "lib": ["dom", "es5", "es6"],
+    "target": "es5",
+    "downlevelIteration": true,
+    "noImplicitAny": true,
+    "mComments": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "noEmitHelpers": true,
+    "declaration": false,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictNullChecks": true,
+
+    "outDir": "./dist/",
+    "sourcem": true,
+    "noEmitOnError": false,
+    "noUnusedLocals": false,
+    "importHelpers": true,
+    "skipLibCheck": true,
+
+    "esModuleInterop": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "ReactTemplate/*": ["../../Lib/V0.5/src/*"],
+      "React": ["./node_modules/@ms/react"],
+      "Common/*": ["./src/Common/*"],
+
+    }
+
+  },
+  "files": [
+    "src/index.tsx"
+  ],
+  "ms": [
+    "arcgis-js-api",
+    "moment"
+  ],
+  "include": [
+    "src/*",
+    "../../Lib/V0.5/src/*", 
+    // "src/Common/AppRouter.tsx",
+    "src/index.tsx", 
+    "src/App.tsx", 
+    // "src/AppContainer.tsx", 
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

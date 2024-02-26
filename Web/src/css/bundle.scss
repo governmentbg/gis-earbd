@@ -1,0 +1,22 @@
+@import "~arcgis-js-api/themes/light/main.css";
+@import "./scroll.scss";
+@import "../../../../Lib/V0.5/src/Base/css/esri-overrides.scss";
+@import "../../../../Lib/V0.5/src/Base/css/react-tabs.scss";
+@import "../../../../Lib/V0.5/src/Base/css/react-table.scss";
+@import "../../../../Lib/V0.5/src/Base/css/detail.scss";
+@import "../../../../Lib/V0.5/src/Base/css/app.scss";
+@import "../../../../Lib/V0.5/src/Base/css/modals.scss";
+@import "../../../../Lib/V0.5/src/Base/css/popups.scss";
+@import "../../../../Lib/V0.5/src/Base/css/floating-label-input.scss";
+@import "../../../../Lib/V0.5/src/Base/css/customer-feedback-form.scss";
+@import "../../../../Lib/V0.5/src/Base/css/service-wizard.scss";
+@import "../../../../Lib/V0.5/src/Base/css/searchElements.scss";
+@import "../../../../Lib/V0.5/src/Base/css/autocomplete.scss";
+@import "../../../../Lib/V0.5/src/Base/css/home-popup.scss";
+@import "../../../../Lib/V0.5/src/Base/css/search.scss";
+@import "../../../../Lib/V0.5/src/Base/css/filters.scss";
+@import "../../../../Lib/V0.5/src/Base/css/table.scss";
+
+.menu-tooltip{
+    font-size: 14px;
+}

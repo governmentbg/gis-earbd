@@ -1,0 +1,3710 @@
+{
+    "$schema": "https://arcgis11demo.gisinv.bg/scheme/v0.6/config-scheme.json",
+    "config": {
+        "scheme": 0.6,
+        "sitemerties": {
+            "m": "Географска информационна система на БДИБР – част БДЗБР (РЗПРН)",
+            "theme": {
+                "color": "#69b7fa",
+                "fontFamily": "Arial, Helvetica, sans-serif",
+                "fontSize": 14
+            }
+        },
+        "data": {
+            "webms": {
+                "Base": {
+                    "url": "BaseData.json",
+                    "urlm": "configRelative"
+                },
+                "BasemsWebm": {
+                    "url": "../BasemsWebm.json",
+                    "urlm": "configRelative"
+                },
+                "BDZBR": {
+                    "url": "WEBm.json",
+                    "urlm": "configRelative"
+                }
+            },
+            "mGroups": {
+                "No_Basem": {
+                    "webmId": "BasemsWebm",
+                    "basems": []
+                },
+                "World_Dark_Gray": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "World_Dark_Gray_Base"
+                        }, {
+                            "id": "World_Dark_Gray_Reference"
+                        }
+                    ]
+                },
+                "World_Imagery": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "World_Imagery"
+                        }
+                    ]
+                },
+                "World_Imagery_With_Labels": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "World_Imagery"
+                        }, {
+                            "id": "World_Boundaries_and_Places"
+                        }
+                    ]
+                },
+                "World_Street_m": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "World_Street_m"
+                        }
+                    ]
+                },
+                "World_Topo_m": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "World_Topo_m"
+                        }
+                    ]
+                },
+                "World_Light_Gray": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "World_Light_Gray_Base"
+                        }, {
+                            "id": "World_Light_Gray_Reference"
+                        }
+                    ]
+                },
+                "NatGeo_World_m": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "NatGeo_World_m"
+                        }
+                    ]
+                },
+                "World_Terrain": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "World_Terrain_Base"
+                        }, {
+                            "id": "World_Reference_Overlay"
+                        }
+                    ]
+                },
+                "Ocean_Basem": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "Ocean_Basem"
+                        }, {
+                            "id": "World_Ocean_Reference"
+                        }
+                    ]
+                },
+                "OpenStreetm": {
+                    "webmId": "BasemsWebm",
+                    "basems": [{
+                            "id": "OpenStreetm"
+                        }
+                    ]
+                },
+                "BaseData": {
+                    "webmId": "Base",
+                    "operationalms": {
+                        "BG4_Basem_5590": {
+                            "mm": "ArcGISmServicem",
+                            "ms": {
+                                "1": {
+                                    "title": "Землища",
+                                    "formatString": "Землища: {m}({munid})",
+                                    "fields": {
+                                        "m": {
+                                            "label": "Име"
+                                        },
+                                        "munid": {
+                                            "label": "Код на община"
+                                        },
+                                        "distrid": {
+                                            "label": "Код на област"
+                                        },
+                                        "kmetstvoid": {
+                                            "label": "Код на метство"
+                                        },
+                                        "ekatte": {
+                                            "label": "ЕКАТТЕ"
+                                        }
+                                    }
+                                },
+                                "2": {
+                                    "title": "Общини",
+                                    "formatString": "Общини: {m}",
+                                    "fields": {
+                                        "m": {
+                                            "label": "Име"
+                                        },
+                                        "munid": {
+                                            "label": "Код на община"
+                                        },
+                                        "ekatte": {
+                                            "label": "ЕКАТТЕ"
+                                        }
+                                    }
+                                },
+                                "3": {
+                                    "title": "Области",
+                                    "formatString": "Области: {m}",
+                                    "fields": {
+
+                                        "m": {
+                                            "label": "Име"
+                                        },
+                                        "distrid": {
+                                            "label": "Код на Област"
+                                        },
+                                        "ekatte": {
+                                            "label": "ЕКАТТЕ"
+                                        },
+                                        "nuts2id": {
+                                            "label": "Статистически район"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "BDZBR": {
+                    "webmId": "BDZBR",
+                    "operationalms": {
+                        "BG4_PORN_APSFR_2022_2027_1075": {
+                            "mm": "ArcGISmServicem",
+                            "ms": {
+                                "0": {
+                                    "title": "Проект на РЗПРН 2022-2027 точки",
+                                    "formatString": "Проект на РЗПРН 2022-2027 точки: {apsfrcode}",
+                                    "fields": {
+                                        "m": {
+                                            "label": "Име"
+                                        },
+                                        "apsfrcode": {
+                                            "label": "Код на РЗПРН"
+                                        },
+                                        "location": {
+                                            "label": "Местоположение"
+                                        },
+                                        "sourceofflooding": {
+                                            "label": "Източник на наводнение"
+                                        },
+                                        "comment": {
+                                            "label": "Коментар"
+                                        },
+                                        "mdocument": {
+                                            "label": "Карта"
+                                        },
+                                        "passportdocument": {
+                                            "label": "Паспорт"
+                                        },
+                                        "rbdm": {
+                                            "label": "Район за басейново управление"
+                                        }
+                                    }
+                                },
+                                "1": {
+                                    "title": "Проект на РЗПРН 2022-2027 линии",
+                                    "formatString": "Проект на РЗПРН 2022-2027 линии: {apsfrcode}",
+                                    "fields": {
+                                        "m": {
+                                            "label": "Име"
+                                        },
+                                        "apsfrcode": {
+                                            "label": "Код на РЗПРН"
+                                        },
+                                        "location": {
+                                            "label": "Местоположение"
+                                        },
+                                        "sourceofflooding": {
+                                            "label": "Източник на наводнение"
+                                        },
+                                        "comment": {
+                                            "label": "Коментар"
+                                        },
+                                        "mdocument": {
+                                            "label": "Карта"
+                                        },
+                                        "passportdocument": {
+                                            "label": "Паспорт"
+                                        },
+                                        "rbdm": {
+                                            "label": "Район за басейново управление"
+                                        }
+                                    }
+                                },
+                                "2": {
+                                    "title": "Проект на РЗПРН 2022-2027 полигон",
+                                    "formatString": "Проект на РЗПРН 2022-2027 полигон: {apsfrcode}",
+                                    "fields": {
+                                        "m": {
+                                            "label": "Име"
+                                        },
+                                        "apsfrcode": {
+                                            "label": "Код на РЗПРН"
+                                        },
+                                        "location": {
+                                            "label": "Местоположение"
+                                        },
+                                        "sourceofflooding": {
+                                            "label": "Източник на наводнение"
+                                        },
+                                        "comment": {
+                                            "label": "Коментар"
+                                        },
+                                        "mdocument": {
+                                            "label": "Карта"
+                                        },
+                                        "passportdocument": {
+                                            "label": "Паспорт"
+                                        },
+                                        "rbdm": {
+                                            "label": "Район за басейново управление"
+                                        }
+                                    }
+                                },
+                                "3": {
+                                    "title": "РЗПРН 2016 – 2021 линии",
+                                    "formatString": "РЗПРН 2016 – 2021 линии: {mofaspf}",
+                                    "fields": {
+                                        "euuomcode": {
+                                            "label": "Код за район"
+                                        },
+                                        "apsfrcode": {
+                                            "label": "Код на РЗПРН"
+                                        },
+                                        "lat": {
+                                            "label": "Ширина в ETRS89"
+                                        },
+                                        "lon": {
+                                            "label": "Дължина в ETRS89"
+                                        },
+                                        "mofaspf": {
+                                            "label": "Име на РЗПРН"
+                                        },
+                                        "mdocument": {
+                                            "label": "Карта"
+                                        },
+                                        "passportdocument": {
+                                            "label": "Паспорт"
+                                        }
+                                    }
+                                },
+                                "5": {
+                                    "title": "Минали наводнения (линии)",
+                                    "formatString": "Минали наводнения (линии): {mspace}",
+                                    "fields": {
+                                        "localid": {
+                                            "label": "localId"
+                                        },
+                                        "mspace": {
+                                            "label": "mspace"
+                                        },
+                                        "beginlife": {
+                                            "label": "beginLife"
+                                        },
+                                        "qualitval": {
+                                            "label": "qualitVal"
+                                        },
+                                        "quantival": {
+                                            "label": "quantiVal"
+                                        },
+                                        "uom": {
+                                            "label": "uom"
+                                        },
+                                        "featintid": {
+                                            "label": "featIntId"
+                                        },
+                                        "featintsch": {
+                                            "label": "featIntSch"
+                                        },
+                                        "thematicid": {
+                                            "label": "thematicId"
+                                        },
+                                        "idscheme": {
+                                            "label": "idScheme"
+                                        }
+                                    }
+                                },
+                                "6": {
+                                    "title": "Минали наводнения (полигони)",
+                                    "formatString": "Минали наводнения (полигони): {mspace}",
+                                    "fields": {
+                                        "localid": {
+                                            "label": "localId"
+                                        },
+                                        "mspace": {
+                                            "label": "mspace"
+                                        },
+                                        "beginlife": {
+                                            "label": "beginLife"
+                                        },
+                                        "qualitval": {
+                                            "label": "qualitVal"
+                                        },
+                                        "quantival": {
+                                            "label": "quantiVal"
+                                        },
+                                        "uom": {
+                                            "label": "uom"
+                                        },
+                                        "featintid": {
+                                            "label": "featIntId"
+                                        },
+                                        "featintsch": {
+                                            "label": "featIntSch"
+                                        },
+                                        "thematicid": {
+                                            "label": "thematicId"
+                                        },
+                                        "idscheme": {
+                                            "label": "idScheme"
+                                        }
+                                    }
+                                },
+                                "8": {
+                                    "title": "Значими наводнения точки",
+                                    "formatString": "Значими наводнения точки: {fl_m}",
+                                    "fields": {
+                                        "rbasin": {
+                                            "label": "Воден басейн"
+                                        },
+                                        "fl_m": {
+                                            "label": "Име"
+                                        },
+                                        "fl_river": {
+                                            "label": "Река"
+                                        },
+                                        "fl_code": {
+                                            "label": "Код"
+                                        },
+                                        "event": {
+                                            "label": "Събитие"
+                                        },
+                                        "past": {
+                                            "label": "За минали наводнения"
+                                        },
+                                        "future": {
+                                            "label": "Потенциални бъдещи наводнения"
+                                        },
+                                        "eu_cd_fl": {
+                                            "label": "Идентификатор на местоположението на събитие"
+                                        }
+                                    }
+                                },
+                                "9": {
+                                    "title": "Значими наводнения линии",
+                                    "formatString": "Значими наводнения линии: {fl_m}",
+                                    "fields": {
+                                        "id": {
+                                            "label": "id"
+                                        },
+                                        "basin": {
+                                            "label": "Воден басейн"
+                                        },
+                                        "fl_m": {
+                                            "label": "Име"
+                                        },
+                                        "fl_river": {
+                                            "label": "Река"
+                                        },
+                                        "fl_code": {
+                                            "label": "Код"
+                                        },
+                                        "fl_event": {
+                                            "label": "Събитие"
+                                        },
+                                        "past": {
+                                            "label": "За минали наводнения"
+                                        },
+                                        "future": {
+                                            "label": "Потенциални бъдещи наводнения"
+                                        },
+                                        "length": {
+                                            "label": "Дължина"
+                                        },
+                                        "eu_cd_fl": {
+                                            "label": "Идентификатор на местоположението на събитие"
+                                        }
+                                    }
+                                },
+                                "10": {
+                                    "title": "Значими наводнения полигон",
+                                    "formatString": "Значими наводнения полигон: {id}",
+                                    "fields": {
+                                        "id": {
+                                            "label": "id"
+                                        },
+                                        "basin": {
+                                            "label": "Воден басейн"
+                                        },
+                                        "number_h": {
+                                            "label": "Номер"
+                                        },
+                                        "ektte": {
+                                            "label": "ЕКАТТЕ"
+                                        },
+                                        "sett_bg": {
+                                            "label": "sett_bg"
+                                        },
+                                        "oid_rvr": {
+                                            "label": "oid_rvr"
+                                        },
+                                        "dike": {
+                                            "label": "dike"
+                                        },
+                                        "описание": {
+                                            "label": "описание"
+                                        },
+                                        "river_bg": {
+                                            "label": "Реки БГ"
+                                        },
+                                        "municipali": {
+                                            "label": "municipali"
+                                        },
+                                        "region": {
+                                            "label": "region"
+                                        },
+                                        "area_clip": {
+                                            "label": "area_clip"
+                                        },
+                                        "suff_pop": {
+                                            "label": "suff_pop"
+                                        },
+                                        "category_f": {
+                                            "label": "Категории"
+                                        },
+                                        "fl_code": {
+                                            "label": "Код"
+                                        },
+                                        "eu_cd_fl": {
+                                            "label": "Идентификатор на местоположението на събитие"
+                                        }
+                                    }
+                                },
+                                "12": {
+                                    "title": "Потенциални бъдещи наводнения точки",
+                                    "formatString": "Потенциални бъдещи наводнения точки: {id}",
+                                    "fields": {
+                                        "objectid": {
+                                            "label": "OBJECTID"
+                                        },
+                                        "gml_id": {
+                                            "label": "gml_id"
+                                        },
+                                        "localid": {
+                                            "label": "Код на събитието"
+                                        },
+                                        "mspace": {
+                                            "label": "Местоположение"
+                                        },
+                                        "identifier": {
+                                            "label": "identifier"
+                                        },
+                                        "identifi_1": {
+                                            "label": "identifi_1"
+                                        },
+                                        "determinat": {
+                                            "label": "Начин на определяне"
+                                        },
+                                        "hazardcate": {
+                                            "label": "hazardCate"
+                                        },
+                                        "featureofi": {
+                                            "label": "Код на РБУ"
+                                        },
+                                        "featureo_1": {
+                                            "label": "featureO_1"
+                                        },
+                                        "month": {
+                                            "label": "month"
+                                        },
+                                        "day": {
+                                            "label": "day"
+                                        },
+                                        "year": {
+                                            "label": "year"
+                                        },
+                                        "qualitativ": {
+                                            "label": "qualitativ"
+                                        },
+                                        "probabilit": {
+                                            "label": "probabilit"
+                                        },
+                                        "returnperi": {
+                                            "label": "Период на повторение"
+                                        },
+                                        "assessment": {
+                                            "label": "assessment"
+                                        },
+                                        "magnitudeo": {
+                                            "label": "magnitudeo"
+                                        },
+                                        "shape": {
+                                            "label": "shape"
+                                        }
+                                    }
+                                },
+                                "13": {
+                                    "title": "Потенциални бъдещи наводнения линии",
+                                    "formatString": "Потенциални бъдещи наводнения линии: {id}",
+                                    "fields": {
+                                        "objectid": {
+                                            "label": "objectid"
+                                        },
+                                        "gml_id": {
+                                            "label": "gml_id"
+                                        },
+                                        "localid": {
+                                            "label": "Код на събитието"
+                                        },
+                                        "mspace": {
+                                            "label": "Местоположение"
+                                        },
+                                        "identifier": {
+                                            "label": "identifier"
+                                        },
+                                        "identifi_1": {
+                                            "label": "identifi_1"
+                                        },
+                                        "determinat": {
+                                            "label": "Начин на определяне"
+                                        },
+                                        "hazardcate": {
+                                            "label": "hazardcate"
+                                        },
+                                        "featureofi": {
+                                            "label": "Код на РБУ"
+                                        },
+                                        "featureo_1": {
+                                            "label": "featureo_1"
+                                        },
+                                        "month": {
+                                            "label": "month"
+                                        },
+                                        "day": {
+                                            "label": "day"
+                                        },
+                                        "year": {
+                                            "label": "year"
+                                        },
+                                        "qualitativ": {
+                                            "label": "qualitativ"
+                                        },
+                                        "probabilit": {
+                                            "label": "probabilit"
+                                        },
+                                        "returnperi": {
+                                            "label": "Период на повторение"
+                                        },
+                                        "assessment": {
+                                            "label": "assessment"
+                                        },
+                                        "magnitudeo": {
+                                            "label": "magnitudeo"
+                                        },
+                                        "shape": {
+                                            "label": "shape"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "identifyGroups": {
+                "all": {
+                    "mode": "all",
+                    "groups": [{
+                            "mGroupId": "BaseData"
+                        }, {
+                            "mGroupId": "BDZBR"
+                        }
+                    ]
+                }
+            },
+            "bookmarks": {
+                "ibbdrHome": {
+                    "extent": {
+                        "spatialReference": {
+                            "wkid": 102100
+                        },
+                        "xmin": 2493813.752,
+                        "ymin": 5050058.54,
+                        "xmax": 2691216.816,
+                        "ymax": 5266876.096
+                    }
+                },
+                "river1": {
+                    "extent": {
+                        "xmax": 3140986.643,
+                        "xmin": 2520253.234,
+                        "ymax": 5498857.186,
+                        "ymin": 5366668.041,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river2": {
+                    "extent": {
+                        "xmax": 2619120.948,
+                        "xmin": 2488731.95,
+                        "ymax": 5498629.956,
+                        "ymin": 5371038.964,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river3": {
+                    "extent": {
+                        "xmax": 3118715.952,
+                        "xmin": 2886618.384,
+                        "ymax": 5484730.457,
+                        "ymin": 5353458.026,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river4": {
+                    "extent": {
+                        "xmin": 2864324.746,
+                        "ymin": 5337202.186,
+                        "xmax": 2984146.374,
+                        "ymax": 5440765.609,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river5": {
+                    "extent": {
+                        "xmin": 2532084.41,
+                        "ymin": 5329663.032,
+                        "xmax": 2672658.568,
+                        "ymax": 5426249.979,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river6": {
+                    "extent": {
+                        "xmin": 3088429.554,
+                        "ymin": 5340567.275,
+                        "xmax": 3184612.981,
+                        "ymax": 5429140.355,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river7": {
+                    "extent": {
+                        "xmin": 2549064.622,
+                        "ymin": 5173258.903,
+                        "xmax": 2727723.105,
+                        "ymax": 5424180.737,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river8": {
+                    "extent": {
+                        "xmin": 3054835.215,
+                        "ymin": 5158259.02,
+                        "xmax": 3187387.15,
+                        "ymax": 5425079.529,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river9": {
+                    "extent": {
+                        "xmin": 2724741.544,
+                        "ymin": 5267760.431,
+                        "xmax": 2822391.493,
+                        "ymax": 5419734.082,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river10": {
+                    "extent": {
+                        "xmin": 2683342.126,
+                        "ymin": 5273750.018,
+                        "xmax": 2758742.205,
+                        "ymax": 5416251.017,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river11": {
+                    "extent": {
+                        "xmin": 2755509.938,
+                        "ymin": 5268828.168,
+                        "xmax": 2946560.896,
+                        "ymax": 5410030.698,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river12": {
+                    "extent": {
+                        "xmin": 2981868.782,
+                        "ymin": 5320936.217,
+                        "xmax": 3107503.242,
+                        "ymax": 5392130.844,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river13": {
+                    "extent": {
+                        "xmin": 2917774.379,
+                        "ymin": 5272736.94,
+                        "xmax": 3104606.644,
+                        "ymax": 5377162.852,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river14": {
+                    "extent": {
+                        "xmin": 2531060.402,
+                        "ymin": 5280687.627,
+                        "xmax": 2580126.666,
+                        "ymax": 5342301.092,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river15": {
+                    "extent": {
+                        "xmin": 3095049.149,
+                        "ymin": 5315517.431,
+                        "xmax": 3110985.857,
+                        "ymax": 5340837.363,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river16": {
+                    "extent": {
+                        "xmin": 3013458.36,
+                        "ymin": 5229009.382,
+                        "xmax": 3106452.58,
+                        "ymax": 5315030.521,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river17": {
+                    "extent": {
+                        "xmin": 2497920.863,
+                        "ymin": 5265342.3,
+                        "xmax": 2539514.459,
+                        "ymax": 5296143.49,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river18": {
+                    "extent": {
+                        "xmin": 2489161.744,
+                        "ymin": 5059192.992,
+                        "xmax": 2633799.946,
+                        "ymax": 5286208.652,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river19": {
+                    "extent": {
+                        "xmin": 2777195.16,
+                        "ymin": 5134523.389,
+                        "xmax": 3018728.483,
+                        "ymax": 5288842.022,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river20": {
+                    "extent": {
+                        "xmin": 2625268.478,
+                        "ymin": 5087997.643,
+                        "xmax": 2944764.965,
+                        "ymax": 5280636.131,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river21": {
+                    "extent": {
+                        "xmin": 2974185.825,
+                        "ymin": 5169929.715,
+                        "xmax": 3062422.173,
+                        "ymax": 5257316.314,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river22": {
+                    "extent": {
+                        "xmin": 3053676.635,
+                        "ymin": 5171372.014,
+                        "xmax": 3113576.766,
+                        "ymax": 5230656.027,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river23": {
+                    "extent": {
+                        "xmin": 2597219.818,
+                        "ymin": 5070638.618,
+                        "xmax": 2679806.727,
+                        "ymax": 5188440.566,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river24": {
+                    "extent": {
+                        "xmin": 3034461.475,
+                        "ymin": 5155919.836,
+                        "xmax": 3114315.292,
+                        "ymax": 5191737.336,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river25": {
+                    "extent": {
+                        "xmin": 3056860.385,
+                        "ymin": 5146630.433,
+                        "xmax": 3120815.585,
+                        "ymax": 5171411.512,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river26": {
+                    "extent": {
+                        "xmin": 2646496.014,
+                        "ymin": 5085086.398,
+                        "xmax": 2703601.693,
+                        "ymax": 5145963.765,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river27": {
+                    "extent": {
+                        "xmax": 2914809.2,
+                        "xmin": 2729532.382,
+                        "ymax": 5140490.275,
+                        "ymin": 5047092.926,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                },
+                "river28": {
+                    "extent": {
+                        "xmin": 2865506.062,
+                        "ymin": 5057355.765,
+                        "xmax": 2916680.872,
+                        "ymax": 5095911.979,
+                        "spatialReference": {
+                            "wkid": 102100
+                        }
+                    }
+                }
+            },
+            "links": {
+                "gp": {
+                    "url": "https://google.com"
+                },
+                "fb": {
+                    "url": "https://www.facebook.com/"
+                },
+                "tw": {
+                    "url": "https://twitter.com/?lang=en"
+                },
+                "pin": {
+                    "url": "https://www.pinterest.com/"
+                },
+                "in": {
+                    "url": "https://www.instagram.com/"
+                },
+                "wa": {
+                    "url": "https://www.whatsapp.com/"
+                }
+            },
+            "symbolGallery": {
+                "identifymgonSymbol": {
+                    "m": "simple-fill",
+                    "color": [
+                        51,
+                        200,
+                        50,
+                        0.2
+                    ],
+                    "style": "solid",
+                    "outm": {
+                        "color": "red",
+                        "width": 1,
+                        "opacity": 0.6
+                    }
+                },
+                "cyanSymbolSet": {
+                    "mSymbol": {
+                        "m": "simple-marker",
+                        "color": [
+                            0,
+                            255,
+                            255,
+                            0.5
+                        ],
+                        "simpleMarkerStyle": "circle",
+                        "size": 12,
+                        "outm": {
+                            "width": 1,
+                            "color": "#00FFFF"
+                        }
+                    },
+                    "mmSymbol": {
+                        "m": "simple-m",
+                        "color": [
+                            0,
+                            255,
+                            255,
+                            0.4
+                        ],
+                        "width": 8,
+                        "style": "solid"
+                    },
+                    "mgonSymbol": {
+                        "m": "simple-fill",
+                        "color": [
+                            0,
+                            255,
+                            255,
+                            0.1
+                        ],
+                        "simpleFillStyle": "solid",
+                        "outm": {
+                            "color": "#00FFFF",
+                            "width": 2
+                        }
+                    },
+                    "textSymbol": {
+                        "m": "text",
+                        "color": [
+                            255,
+                            255,
+                            255,
+                            1
+                        ],
+                        "haloColor": [
+                            0,
+                            0,
+                            0,
+                            0.5
+                        ],
+                        "haloSize": 2,
+                        "xoffset": 5,
+                        "yoffset": 5,
+                        "text": "",
+                        "font": {
+                            "size": 12,
+                            "family": "sans-serif",
+                            "weight": "bold"
+                        },
+                        "textColor": "white",
+                        "borderTextColor": "black",
+                        "borderTextSize": "1px",
+                        "backgroundColor": "",
+                        "bordermColor": "",
+                        "bordermSize": 1,
+                        "horizontalAlignment": "center",
+                        "kerning": true,
+                        "mHeight": 1,
+                        "mWidth": "",
+                        "rotated": true,
+                        "verticalAlignment": "middle"
+                    }
+                },
+                "blueSymbolSet": {
+                    "mSymbol": {
+                        "m": "simple-marker",
+                        "color": [
+                            0,
+                            191,
+                            255,
+                            0.5
+                        ],
+                        "simpleMarkerStyle": "circle",
+                        "style": "square",
+                        "size": 8,
+                        "outm": {
+                            "width": 1,
+                            "color": "#283A90"
+                        }
+                    },
+                    "mmSymbol": {
+                        "m": "simple-m",
+                        "color": [
+                            0,
+                            191,
+                            255,
+                            0.4
+                        ],
+                        "width": 5,
+                        "style": "solid"
+                    },
+                    "mgonSymbol": {
+                        "m": "simple-fill",
+                        "color": [
+                            0,
+                            191,
+                            255,
+                            0.2
+                        ],
+                        "simpleFillStyle": "solid",
+                        "outm": {
+                            "color": "#00BFFF",
+                            "width": 1
+                        }
+                    },
+                    "textSymbol": {
+                        "m": "text",
+                        "color": [
+                            255,
+                            255,
+                            255,
+                            1
+                        ],
+                        "haloColor": [
+                            0,
+                            0,
+                            0,
+                            0.5
+                        ],
+                        "haloSize": 2,
+                        "xoffset": 5,
+                        "yoffset": 5,
+                        "text": "",
+                        "font": {
+                            "size": 10,
+                            "family": "sans-serif"
+                        }
+                    }
+                }
+            }
+        },
+        "views": {
+            "mComponents": {
+                "buttongroup1": {
+                    "m": "UI_Container",
+                    "position": {
+                        "layout": "vertical",
+                        "positionVertical": "top",
+                        "positionHorizontal": "right"
+                    },
+                    "ms": {
+                        "button_previous_extent": {
+                            "m": "UI_Button",
+                            "label": "",
+                            "tooltip": "Предишен изглед",
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/left-arrow.png"
+                            }
+                        },
+                        "button_next_extent": {
+                            "m": "UI_Button",
+                            "label": "",
+                            "tooltip": "Следващ изглед",
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/right-arrow.png"
+                            }
+                        },
+                        "basems1": {
+                            "m": "UI_Subcontainer",
+                            "label": "",
+                            "tooltip": "Базови карти",
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/basems32.png"
+                            },
+                            "ms": {
+                                "No_Basem": {
+                                    "m": "UI_Button",
+                                    "label": "Без базова карта"
+                                },
+                                "World_Topo_m": {
+                                    "m": "UI_Button",
+                                    "label": "Topo m",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/topo_thumb_b2wm.jpg"
+                                    }
+                                },
+                                "World_Imagery": {
+                                    "m": "UI_Button",
+                                    "label": "Imagery",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/imagery.jpeg"
+                                    }
+                                },
+                                "World_Imagery_With_Labels": {
+                                    "m": "UI_Button",
+                                    "label": "Imagery with Labels",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/imagery_hybrid.jpg"
+                                    }
+                                },
+                                "OpenStreetm": {
+                                    "m": "UI_Button",
+                                    "label": "OpenStreetm",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/openstreetm.jpeg"
+                                    }
+                                },
+                                "World_Street_m": {
+                                    "m": "UI_Button",
+                                    "label": "Street m",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/street_thumb_b2wm.jpg"
+                                    }
+                                },
+                                "NatGeo_World_m": {
+                                    "m": "UI_Button",
+                                    "label": "NatGeo",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/natgeo.jpeg"
+                                    }
+                                },
+                                "World_Terrain_Base": {
+                                    "m": "UI_Button",
+                                    "label": "Terrain",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/Terrain_Labels_Web_m.jpg"
+                                    }
+                                },
+                                "Ocean_Basem": {
+                                    "m": "UI_Button",
+                                    "label": "Ocean",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/oceans.jpeg"
+                                    }
+                                },
+                                "World_Dark_Gray": {
+                                    "m": "UI_Button",
+                                    "label": "Dark Gray",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/darkgray_thumb_b2wm.jpg"
+                                    }
+                                },
+                                "World_Light_Gray": {
+                                    "m": "UI_Button",
+                                    "label": "Light Gray",
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/lightgray_thumb_b2wm.jpg"
+                                    }
+                                }
+                            }
+                        },
+                        "button_home": {
+                            "m": "UI_Button",
+                            "label": "",
+                            "tooltip": "Начало",
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/home.png"
+                            }
+                        },
+                        "button_rect_search": {
+                            "m": "UI_Button",
+                            "label": "",
+                            "tooltip": "Търсене",
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/select.png"
+                            }
+                        },
+                        "button_draw_mm": {
+                            "m": "UI_Button",
+                            "label": "",
+                            "tooltip": "Измерване на разстояние",
+                            "iconUrl": {
+                                "url": "../../Resources/icons/measure.svg"
+                            }
+                        },
+                        "button_draw_mgon_vertex_coor": {
+                            "m": "UI_Button",
+                            "label": "",
+                            "tooltip": "Измерване на площ",
+                            "iconUrl": {
+                                "url": "../../Resources/icons/measurem.svg"
+                            }
+                        },
+                        "button_clear_selection": {
+                            "m": "UI_Button",
+                            "label": "",
+                            "tooltip": "Изчисти",
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/clear.png"
+                            }
+                        },
+                        "bookmarks1": {
+                            "m": "UI_Subcontainer",
+                            "tooltip": "Oтметки",
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/bookmark32.png"
+                            },
+                            "ms": {
+                                "button_struma": {
+                                    "m": "UI_Button",
+                                    "label": "Струма"
+                                },
+                                "button_mesta": {
+                                    "m": "UI_Button",
+                                    "label": "Места"
+                                },
+                                "button_dospat": {
+                                    "m": "UI_Button",
+                                    "label": "Доспат"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "mTools": {
+                "searchTool": {
+                    "selectSearchGrouplabel": "Изберете група за търсене",
+                    "totalCountFormatString": "Общ брой",
+                    "moreSuggestionsCount": 100,
+                    "suggestionsCount": 10,
+                    "searchIconUrl": {
+                        "url": "BaseProject/Resources/LE/Search/search.svg",
+                        "urlm": "siteRelative"
+                    },
+                    "clearIconUrl": {
+                        "url": "BaseProject/Resources/LE/Search/cross.svg",
+                        "urlm": "siteRelative"
+                    },
+                    "loadingIconUrl": {
+                        "url": "BaseProject/Resources/LE/Search/spinner.svg",
+                        "urlm": "siteRelative"
+                    },
+                    "buttons": {
+                        "showInDetailsButton": {
+                            "tooltip": "Покажи резултатите в детайли",
+                            "label": "Покажи резултатите в детайли"
+                        }
+                    },
+                    "hoverButtons": {
+                        "searchButton_2": {
+                            "iconUrl": {
+                                "url": "../../Resources/icons/zoomTo.svg",
+                                "urlm": "configRelative"
+                            },
+                            "tooltip": "Приближи"
+                        }
+                    },
+                    "searchGroups": {
+                        "AnnoLandcoverSearchGroup": {
+                            "label": "Населени места",
+                            "iconUrl": {
+                                "url": "../../Resources/LE/Search/route.svg",
+                                "urlm": "configRelative"
+                            },
+                            "inputTextBoxes": {
+                                "AnnoLandcoverTextBox": {
+                                    "placeHolder": "Населено място, землище или община",
+                                    "minimumInputLenght": 3,
+                                    "searchMode": "autocomplete",
+                                    "searchQueries": {
+                                        "query1": {
+                                            "mGroupId": "BaseData",
+                                            "operationalmId": "BG4_Basem_5590",
+                                            "mId": "1",
+                                            "formatString": "Землища: {m}({munid})",
+                                            "maxResultRecordCount": 15,
+                                            "fields": {
+                                                "m": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                },
+                                                "ekatte": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "query2": {
+                                            "mGroupId": "BaseData",
+                                            "operationalmId": "BG4_Basem_5590",
+                                            "mId": "2",
+                                            "formatString": "Общини: {m}",
+                                            "maxResultRecordCount": 15,
+                                            "fields": {
+                                                "m": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                },
+                                                "ekatte": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "query3": {
+                                            "mGroupId": "BaseData",
+                                            "operationalmId": "BG4_Basem_5590",
+                                            "mId": "3",
+                                            "formatString": "Области: {m}",
+                                            "maxResultRecordCount": 15,
+                                            "fields": {
+                                                "m": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                },
+                                                "ekatte": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "ApsfrmGroupBG4": {
+                            "label": "Проект на РЗПРН",
+                            "iconUrl": {
+                                "url": "../../Resources/LE/Search/route.svg",
+                                "urlm": "configRelative"
+                            },
+                            "inputTextBoxes": {
+                                "apsfrmGroupBG": {
+                                    "placeHolder": "Проект на РЗПРН",
+                                    "minimumInputLenght": 3,
+                                    "searchMode": "autocomplete",
+                                    "searchQueries": {
+                                        "query5": {
+                                            "mGroupId": "BDZBR",
+                                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                                            "mId": "0",
+                                            "formatString": "{apsfrcode} - {m} - точки",
+                                            "maxResultRecordCount": 15,
+                                            "fields": {
+                                                "apsfrcode": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                },
+                                                "m": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "query6": {
+                                            "mGroupId": "BDZBR",
+                                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                                            "mId": "1",
+                                            "formatString": "{apsfrcode} - {m} - линии",
+                                            "maxResultRecordCount": 15,
+                                            "fields": {
+                                                "apsfrcode": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                },
+                                                "m": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "query7": {
+                                            "mGroupId": "BDZBR",
+                                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                                            "mId": "2",
+                                            "formatString": "{apsfrcode} - {m} - полигон",
+                                            "maxResultRecordCount": 15,
+                                            "fields": {
+                                                "apsfrcode": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                },
+                                                "m": {
+                                                    "searchm": "text",
+                                                    "searchPatterns": [
+                                                        "caseInsensitiveStartsWith",
+                                                        "caseInsensitiveContains"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "drawTools": {
+                    "drawmmLengthSum": {
+                        "drawm": "mm",
+                        "drawMode": "click",
+                        "enableAgainOnComplete": false,
+                        "symbolSetId": "blueSymbolSet",
+                        "vertexSymbolSetId": "blueSymbolSet",
+                        "selfIntersectingSymbolSetId": "blueSymbolSet",
+                        "allowSelfIntersecting": false,
+                        "numberOfVertices": 50,
+                        "vertexCoordinates": {
+                            "show": false,
+                            "wkid": 3857
+                        },
+                        "measurment": {
+                            "show": true,
+                            "showSegmentsLength": false,
+                            "showTotalLength": true,
+                            "marUnit": "meters",
+                            "areaUnit": "square-meters"
+                        },
+                        "clearWhenDisabled": false
+                    },
+                    "drawmgonArea": {
+                        "drawm": "mgon",
+                        "drawMode": "click",
+                        "enableAgainOnComplete": false,
+                        "symbolSetId": "blueSymbolSet",
+                        "vertexSymbolSetId": "blueSymbolSet",
+                        "selfIntersectingSymbolSetId": "blueSymbolSet",
+                        "allowSelfIntersecting": false,
+                        "numberOfVertices": 50,
+                        "vertexCoordinates": {
+                            "show": false,
+                            "wkid": 3857
+                        },
+                        "measurment": {
+                            "show": false,
+                            "showSegmentsLength": false,
+                            "showTotalLength": true,
+                            "marUnit": "meters",
+                            "areaUnit": "square-meters"
+                        },
+                        "clearWhenDisabled": false
+                    }
+                },
+                "overview": {
+                    "mode": "static",
+                    "mGroupId": "OpenStreetm",
+                    "viewSettings": {
+                        "openIconUrl": {
+                            "url": "../../Resources/buttons/overview_open32.png"
+                        },
+                        "closeIconUrl": {
+                            "url": "../../Resources/buttons/overview_close32.png"
+                        },
+                        "tooltipOpen": "Скрий \"Общ изглед\"",
+                        "tooltipClosed": "Покажи \"Общ изглед\"",
+                        "verticalPosition": "bottom",
+                        "horizontalPosition": "right",
+                        "size": "medium",
+                        "showOnInit": false
+                    }
+                },
+                "labelTools": {
+                    "areaLabeling": {
+                        "symbol": "data/symbolGallery/cyanSymbolSet",
+                        "spatialReference": {
+                            "wkid": 3857
+                        },
+                        "aream": "geodesic",
+                        "units": "square-meters",
+                        "format": {
+                            "digits": 2,
+                            "sufix": "кв. м",
+                            "m": "decimal"
+                        }
+                    },
+                    "lengthsLabeling": {
+                        "symbol": "data/symbolGallery/cyanSymbolSet",
+                        "lengthm": "geodesic",
+                        "units": "meters",
+                        "format": {
+                            "digits": 2,
+                            "sufix": "м"
+                        },
+                        "measurement": {
+                            "showSegmentsLength": false,
+                            "showTotalLength": true
+                        }
+                    },
+                    "vertexLabelingSymbol": {
+                        "symbol": "data/symbolGallery/cyanSymbolSet",
+                        "spatialReference": {
+                            "wkid": 3857
+                        },
+                        "format": {
+                            "digits": 2,
+                            "sufix": "м",
+                            "m": "decimal"
+                        }
+                    }
+                },
+                "scale": {
+                    "viewSettings": {
+                        "setBtnIconUrl": {
+                            "url": "../../Resources/buttons/extent32.png",
+                            "urlm": "configRelative"
+                        },
+                        "setBtnTooltip": "Задаване на мащаб",
+                        "mainLabel": "Мащаб 1:",
+                        "verticalPosition": "bottom",
+                        "horizontalPosition": "middle"
+                    }
+                },
+                "coordinates": {
+                    "visible": true,
+                    "wkid": "4326",
+                    "format": {
+                        "formatString": "{x}, {y}",
+                        "units": "DMS",
+                        "digits": 3
+                    },
+                    "viewSettings": {
+                        "verticalPosition": "bottom",
+                        "horizontalPosition": "left",
+                        "size": "medium"
+                    }
+                },
+                "findCoordinates": {
+                    "visible": true,
+                    "wkid": "7801",
+                    "format": {
+                        "formatString": "{x}, {y}",
+                        "units": "meters",
+                        "digits": 3
+                    },
+                    "viewSettings": {
+                        "verticalPosition": "bottom",
+                        "horizontalPosition": "left",
+                        "size": "medium"
+                    },
+                    "buttons": {
+                        "geometryms": {
+                            "mBtn": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/draw_m32.png"
+                                },
+                                "label": "Точка",
+                                "tooltip": "Покажи точка"
+                            },
+                            "multimBtn": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/draw_multi_ms32.png"
+                                },
+                                "label": "Точки",
+                                "tooltip": "Покажи точки"
+                            },
+                            "mmBtn": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/draw_mm32.png"
+                                },
+                                "label": "Линия",
+                                "tooltip": "Покажи линия"
+                            },
+                            "mgonBtn": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/draw_mgon32.png"
+                                },
+                                "label": "Полигон",
+                                "tooltip": "Покажи полигон"
+                            }
+                        },
+                        "actions": {
+                            "getCenterCoordinates": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/extent32.png"
+                                },
+                                "label": "",
+                                "tooltip": "Извличане на координати от център на картата"
+                            },
+                            "showCoordinates": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/draw_m32.png"
+                                },
+                                "label": "",
+                                "tooltip": "Маркиране на картата"
+                            }
+                        },
+                        "openButton": {
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/extent32.png"
+                            },
+                            "tooltip": "Изчертаване по координати"
+                        },
+                        "closeButton": {
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/close_icon.png"
+                            },
+                            "tooltip": "Затвори"
+                        }
+                    }
+                }
+            },
+            "panels": {
+                "mPanel": {
+                    "popup": {
+                        "enablePopup": false,
+                        "alignment": "bottom-left",
+                        "dockOptions": {
+                            "position": "bottom-left",
+                            "buttonEnabled": false,
+                            "breakm": {
+                                "width": 600,
+                                "height": 600
+                            }
+                        }
+                    }
+                },
+                "detailsPanel": {
+                    "enabled": true,
+                    "groups": {
+                        "apsfrmGroupBG40": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "0",
+                            "title": "Проект на РЗПРН 2022-2027 точки",
+                            "formatString": "Проект на РЗПРН 2022-2027 точки: {apsfrcode}",
+                            "fields": {
+                                "m": {},
+                                "apsfrcode": {},
+                                "location": {},
+                                "sourceofflooding": {},
+                                "comment": {},
+                                "mdocument": {
+                                    "m": "link",
+                                    "prefix": "/documents/PFRA за ЕСРИ БДЗБР/"
+                                },
+                                "passportdocument": {
+                                    "m": "link",
+                                    "prefix": "/documents/PFRA за ЕСРИ БДЗБР/"
+                                }
+                            }
+                        },
+                        "apsfrmGroupBG41": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "1",
+                            "title": "Проект на РЗПРН 2022-2027 линии",
+                            "formatString": "Проект на РЗПРН 2022-2027 линии: {apsfrcode}",
+                            "fields": {
+                                "m": {},
+                                "apsfrcode": {},
+                                "location": {},
+                                "sourceofflooding": {},
+                                "comment": {},
+                                "mdocument": {
+                                    "m": "link",
+                                    "prefix": "/documents/PFRA за ЕСРИ БДЗБР/"
+                                },
+                                "passportdocument": {
+                                    "m": "link",
+                                    "prefix": "/documents/PFRA за ЕСРИ БДЗБР/"
+                                }
+                            }
+                        },
+                        "apsfrmGroupBG42": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "2",
+                            "title": "Проект на РЗПРН 2022-2027 полигон",
+                            "formatString": "Проект на РЗПРН 2022-2027 полигон: {apsfrcode}",
+                            "fields": {
+                                "m": {},
+                                "apsfrcode": {},
+                                "location": {},
+                                "sourceofflooding": {},
+                                "comment": {},
+                                "mdocument": {
+                                    "m": "link",
+                                    "prefix": "/documents/PFRA за ЕСРИ БДЗБР/"
+                                },
+                                "passportdocument": {
+                                    "m": "link",
+                                    "prefix": "/documents/PFRA за ЕСРИ БДЗБР/"
+                                }
+                            }
+                        },
+                        "apsfrmGroupBG43": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "3",
+                            "title": "РЗПРН 2016 - 2021 линии",
+                            "formatString": "РЗПРН 2016 - 2021 линии: {mofaspf}",
+                            "fields": {
+                                "apsfrcode": {},
+                                "location": {},
+                                "sourceofflooding": {},
+                                "comment": {},
+                                "mdocument": {
+                                    "m": "link",
+                                    "prefix": "/documents/PFRA за ЕСРИ БДЗБР/"
+                                },
+                                "passportdocument": {
+                                    "m": "link",
+                                    "prefix": "/documents/PFRA за ЕСРИ БДЗБР/"
+                                }
+                            }
+                        }
+                    },
+                    "buttons": {
+                        "zoomToFeature": {
+                            "iconUrl": {
+                                "url": "../../Resources/buttons/zoom_white.png",
+                                "urlm": "configRelative"
+                            },
+                            "tooltip": "Приближи"
+                        }
+                    },
+                    "mGroupId": [
+                        "apsfrmGroupBG4",
+                        "annoLandcover"
+                    ]
+                },
+                "attributeTablePanel": {
+                    "tables": {
+                        "BG4ApsfrFloods0": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "0",
+                            "title": "Проект на РЗПРН 2022-2027 (точка)",
+                            "formatString": "{apsfrcode}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "fields": {
+                                "m": {
+                                    "width": "10%",
+                                    "label": "Име"
+                                },
+                                "apsfrcode": {
+                                    "width": "20%",
+                                    "label": "Код на РЗПРН"
+                                },
+                                "location": {
+                                    "width": "10%",
+                                    "label": "Местоположение"
+                                },
+                                "sourceofflooding": {
+                                    "width": "20%",
+                                    "label": "Източник на наводнение"
+                                },
+                                "comment": {
+                                    "width": "20%",
+                                    "label": "Коментар"
+                                },
+                                "rbdm": {
+                                    "width": "20%",
+                                    "label": "Район за басейново управление"
+                                }
+                            },
+                            "filters": {
+                                "m": {
+                                    "m": "simpletext",
+                                    "label": "Име"
+                                },
+                                "apsfrcode": {
+                                    "m": "simpletext",
+                                    "label": "Код на РЗПРН"
+                                },
+                                "location": {
+                                    "m": "simpletext",
+                                    "label": "Местоположение"
+                                },
+                                "sourceofflooding": {
+                                    "m": "simpletext",
+                                    "label": "Източник на наводнение"
+                                },
+                                "comment": {
+                                    "m": "simpletext",
+                                    "label": "Коментар"
+                                },
+                                "rbdm": {
+                                    "m": "numberDomain",
+                                    "label": "Район за басейново управление"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        },
+                        "BG4ApsfrFloods1": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "1",
+                            "title": "Проект на РЗПРН 2022-2027 (линия)",
+                            "formatString": "{apsfrcode}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "filters": {
+                                "m": {
+                                    "m": "simpletext",
+                                    "label": "Име"
+                                },
+                                "apsfrcode": {
+                                    "m": "simpletext",
+                                    "label": "Код на РЗПРН"
+                                },
+                                "location": {
+                                    "m": "simpletext",
+                                    "label": "Местоположение"
+                                },
+                                "sourceofflooding": {
+                                    "m": "simpletext",
+                                    "label": "Източник на наводнение"
+                                },
+                                "comment": {
+                                    "m": "simpletext",
+                                    "label": "Коментар"
+                                },
+                                "rbdm": {
+                                    "m": "numberDomain",
+                                    "label": "Район за басейново управление"
+                                }
+                            },
+                            "fields": {
+                                "m": {
+                                    "width": "10%",
+                                    "label": "Име"
+                                },
+                                "apsfrcode": {
+                                    "width": "20%",
+                                    "label": "Код на РЗПРН"
+                                },
+                                "location": {
+                                    "width": "10%",
+                                    "label": "Местоположение"
+                                },
+                                "sourceofflooding": {
+                                    "width": "20%",
+                                    "label": "Източник на наводнение"
+                                },
+                                "comment": {
+                                    "width": "20%",
+                                    "label": "Коментар"
+                                },
+                                "rbdm": {
+                                    "width": "20%",
+                                    "label": "Район за басейново управление"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        },
+                        "BG4ApsfrFloods2": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "2",
+                            "title": "Проект на РЗПРН 2022-2027 (полигон)",
+                            "formatString": "{apsfrcode}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "filters": {
+                                "m": {
+                                    "m": "simpletext",
+                                    "label": "Име"
+                                },
+                                "apsfrcode": {
+                                    "m": "simpletext",
+                                    "label": "Код на РЗПРН"
+                                },
+                                "location": {
+                                    "m": "simpletext",
+                                    "label": "Местоположение"
+                                },
+                                "sourceofflooding": {
+                                    "m": "simpletext",
+                                    "label": "Източник на наводнение"
+                                },
+                                "comment": {
+                                    "m": "simpletext",
+                                    "label": "Коментар"
+                                },
+                                "rbdm": {
+                                    "m": "numberDomain",
+                                    "label": "Район за басейново управление"
+                                }
+                            },
+                            "fields": {
+                                "m": {
+                                    "width": "10%",
+                                    "label": "Име"
+                                },
+                                "apsfrcode": {
+                                    "width": "20%",
+                                    "label": "Код на РЗПРН"
+                                },
+                                "location": {
+                                    "width": "10%",
+                                    "label": "Местоположение"
+                                },
+                                "sourceofflooding": {
+                                    "width": "20%",
+                                    "label": "Източник на наводнение"
+                                },
+                                "comment": {
+                                    "width": "20%",
+                                    "label": "Коментар"
+                                },
+                                "rbdm": {
+                                    "width": "20%",
+                                    "label": "Район за басейново управление"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        },
+                        "BG4ApsfrFloods6": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "5",
+                            "title": "Минали наводнения (линия)",
+                            "formatString": "{mspace}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "filters": {
+                                "localid": {
+                                    "m": "simpletext",
+                                    "label": "Код на събитието"
+                                },
+                                "mspace": {
+                                    "m": "simpletext",
+                                    "label": "Местоположение"
+                                },
+                                "beginlife": {
+                                    "m": "date",
+                                    "label": "",
+                                    "inputs": [
+                                        {
+                                            "label": "От дата на събитието",
+                                            "operator": "timestamp"
+                                        },
+                                        {
+                                            "label": "До дата на събитието",
+                                            "operator": "timestamp"
+                                        }
+                                    ]
+                                },
+                                "uom": {
+                                    "m": "simpletext",
+                                    "label": "Код на РБУ"
+                                }
+                            },
+                            "fields": {
+                                "localid": {
+                                    "width": "20%",
+                                    "label": "Код на събитието"
+                                },
+                                "mspace": {
+                                    "width": "20%",
+                                    "label": "Местоположение"
+                                },
+                                "beginlife": {
+                                    "width": "20%",
+                                    "label": "Дата на събитието"
+                                },
+                                "uom": {
+                                    "width": "20%",
+                                    "label": "Код на РБУ"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        },
+                        "BG4ApsfrFloods7": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "6",
+                            "title": "Минали наводнения (полигон)",
+                            "formatString": "{mspace}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "filters": {
+                                "localid": {
+                                    "m": "simpletext",
+                                    "label": "Код на събитието"
+                                },
+                                "mspace": {
+                                    "m": "simpletext",
+                                    "label": "Местоположение"
+                                },
+                                "beginlife": {
+                                    "m": "date",
+                                    "label": "",
+                                    "inputs": [
+                                        {
+                                            "label": "От дата на събитието",
+                                            "operator": "timestamp"
+                                        },
+                                        {
+                                            "label": "До дата на събитието",
+                                            "operator": "timestamp"
+                                        }
+                                    ]
+                                },
+                                "uom": {
+                                    "m": "simpletext",
+                                    "label": "Код на РБУ"
+                                }
+                            },
+                            "fields": {
+                                "localid": {
+                                    "width": "20%",
+                                    "label": "Код на събитието"
+                                },
+                                "mspace": {
+                                    "width": "20%",
+                                    "label": "Местоположение"
+                                },
+                                "beginlife": {
+                                    "width": "20%",
+                                    "label": "Дата на събитието"
+                                },
+                                "uom": {
+                                    "width": "20%",
+                                    "label": "Код на РБУ"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        },
+                        "BG4ApsfrFloods8": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "8",
+                            "title": "Значими наводнения точки",
+                            "formatString": "{mspace}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "filters": {
+                                "rbasin": {
+                                    "m": "simpletext",
+                                    "label": "Речен басейн"
+                                },
+                                "fl_m": {
+                                    "m": "simpletext",
+                                    "label": "Име"
+                                },
+                                "fl_river": {
+                                    "m": "simpletext",
+                                    "label": "Воден обект"
+                                },
+                                "fl_code": {
+                                    "m": "simpletext",
+                                    "label": "Код"
+                                },
+                                "event": {
+                                    "m": "simpletext",
+                                    "label": "Дата на събитието"
+                                },
+                                "past": {
+                                    "m": "simpletext",
+                                    "label": "За минали наводнения"
+                                }, 
+                                "future": {
+                                    "m": "simpletext",
+                                    "label": "Потенциално бъдещо"
+                                }, 
+                                "eu_cd_fl": {
+                                    "m": "simpletext",
+                                    "label": "Код на местоположението"
+                                }
+                            },
+                            "fields": {
+                                "rbasin": {
+                                    "width": "15%",
+                                    "label": "Речен басейн"
+                                },
+                                "fl_m": {
+                                    "width": "20%",
+                                    "label": "Име"
+                                },
+                                "fl_river": {
+                                    "width": "15%",
+                                    "label": "Воден обект"
+                                },
+                                "fl_code": {
+                                    "width": "10%",
+                                    "label": "Код"
+                                },
+                                "event": {
+                                    "width": "10%",
+                                    "label": "Дата на събитието"
+                                },
+                                "past": {
+                                    "width": "10%",
+                                    "label": "За минали наводнения"
+                                },
+                                "future": {
+                                    "width": "20%",
+                                    "label": "Потенциално бъдещо"
+                                },
+                                "eu_cd_fl": {
+                                    "width": "10%",
+                                    "label": "Код на местоположението"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        },
+                        "BG4ApsfrFloods9": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "9",
+                            "title": "Значими наводнения линии",
+                            "formatString": "{mspace}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "filters": {
+                                "basin": {
+                                    "m": "simpletext",
+                                    "label": "Речен басейн"
+                                },
+                                "fl_m": {
+                                    "m": "simpletext",
+                                    "label": "Име"
+                                },
+                                "fl_river": {
+                                    "m": "simpletext",
+                                    "label": "Воден обект"
+                                },
+                                "fl_code": {
+                                    "m": "simpletext",
+                                    "label": "Код"
+                                },
+                                "event": {
+                                    "m": "simpletext",
+                                    "label": "Дата на събитието"
+                                },
+                                "past": {
+                                    "m": "simpletext",
+                                    "label": "За минали наводнения"
+                                }, 
+                                "future": {
+                                    "m": "simpletext",
+                                    "label": "Потенциално бъдещо"
+                                }, 
+                                "eu_cd_fl": {
+                                    "m": "simpletext",
+                                    "label": "Код на местоположението"
+                                }
+                            },
+                            "fields": {
+                                "basin": {
+                                    "width": "15%",
+                                    "label": "Речен басейн"
+                                },
+                                "fl_m": {
+                                    "width": "20%",
+                                    "label": "Име"
+                                },
+                                "fl_river": {
+                                    "width": "15%",
+                                    "label": "Воден обект"
+                                },
+                                "fl_code": {
+                                    "width": "10%",
+                                    "label": "Код"
+                                },
+                                "event": {
+                                    "width": "10%",
+                                    "label": "Дата на събитието"
+                                },
+                                "past": {
+                                    "width": "10%",
+                                    "label": "За минали наводнения"
+                                },
+                                "future": {
+                                    "width": "20%",
+                                    "label": "Потенциално бъдещо"
+                                },
+                                "eu_cd_fl": {
+                                    "width": "10%",
+                                    "label": "Код на местоположението"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        },
+                        "BG4ApsfrFloods10": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "10",
+                            "title": "Значими наводнения полигон",
+                            "formatString": "{mspace}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "filters": {
+                                "basin": {
+                                    "m": "simpletext",
+                                    "label": "Речен басейн"
+                                },
+                                "fl_m": {
+                                    "m": "simpletext",
+                                    "label": "Име"
+                                },
+                                "fl_river": {
+                                    "m": "simpletext",
+                                    "label": "Воден обект"
+                                },
+                                "fl_code": {
+                                    "m": "simpletext",
+                                    "label": "Код"
+                                },
+                                "event": {
+                                    "m": "simpletext",
+                                    "label": "Събитие"
+                                },
+                                "past": {
+                                    "m": "simpletext",
+                                    "label": "За минали наводнения"
+                                },
+                                "future": {
+                                    "m": "simpletext",
+                                    "label": "Потенциални бъдещи наводнения"
+                                },
+                                "eu_cd_fl": {
+                                    "m": "simpletext",
+                                    "label": "Идентификатор на местоположението на събитие"
+                                }
+                            },
+                            "fields": {
+                                "basin": {
+                                    "width": "15%",
+                                    "label": "Воден басейн"
+                                },
+                                "fl_m": {
+                                    "width": "20%",
+                                    "label": "Име"
+                                },
+                                "fl_river": {
+                                    "width": "15%",
+                                    "label": "Река"
+                                },
+                                "fl_code": {
+                                    "width": "10%",
+                                    "label": "Код"
+                                },
+                                "event": {
+                                    "width": "10%",
+                                    "label": "Събитие"
+                                },
+                                "past": {
+                                    "width": "10%",
+                                    "label": "За минали наводнения"
+                                },
+                                "future": {
+                                    "width": "20%",
+                                    "label": "Потенциални бъдещи наводнения"
+                                },
+                                "eu_cd_fl": {
+                                    "width": "10%",
+                                    "label": "Идентификатор на местоположението на събитие"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        },
+                        "BG4ApsfrFloods12": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "12",
+                            "title": "Потенциални бъдещи наводнения точки",
+                            "formatString": "{mspace}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "filters": {
+                                "localid": {
+                                    "m": "simpletext",
+                                    "label": "Код на събитието"
+                                },
+                                "mspace": {
+                                    "m": "simpletext",
+                                    "label": "Местоположение"
+                                },
+                                "determinat": {
+                                    "m": "simpletext",
+                                    "label": "Начин на определяне"
+                                },
+                                "featureofi": {
+                                    "m": "simpletext",
+                                    "label": "Код на РБУ"
+                                },
+                                "returnperi": {
+                                    "m": "number",
+                                    "label": "Период на повторение"
+                                }
+                            },
+                            "fields": {
+                                "localid": {
+                                    "width": "20%",
+                                    "label": "Код на събитието"
+                                },
+                                "mspace": {
+                                    "width": "20%",
+                                    "label": "Местоположение"
+                                },
+                                "determinat": {
+                                    "width": "20%",
+                                    "label": "Начин на определяне"
+                                },
+                                "featureofi": {
+                                    "width": "20%",
+                                    "label": "Код на РБУ"
+                                },
+                                "returnperi": {
+                                    "width": "20%",
+                                    "label": "Период на повторение"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        },
+                        "BG4ApsfrFloods13": {
+                            "mGroupId": "BDZBR",
+                            "operationalmId": "BG4_PORN_APSFR_2022_2027_1075",
+                            "mId": "13",
+                            "title": "Потенциални бъдещи наводнения линии",
+                            "formatString": "{mspace}",
+                            "isSortable": false,
+                            "whereClause": "1=1",
+                            "returnGeometry": true,
+                            "featureCount": 20,
+                            "isExpandable": false,
+                            "filters": {
+                                "localid": {
+                                    "m": "simpletext",
+                                    "label": "Код на събитието"
+                                },
+                                "mspace": {
+                                    "m": "simpletext",
+                                    "label": "Местоположение"
+                                },
+                                "determinat": {
+                                    "m": "simpletext",
+                                    "label": "Начин на определяне"
+                                },
+                                "featureofi": {
+                                    "m": "simpletext",
+                                    "label": "Код на РБУ"
+                                },
+                                "returnperi": {
+                                    "m": "number",
+                                    "label": "Период на повторение"
+                                }
+                            },
+                            "fields": {
+                                "localid": {
+                                    "width": "20%",
+                                    "label": "Код на събитието"
+                                },
+                                "mspace": {
+                                    "width": "20%",
+                                    "label": "Местоположение"
+                                },
+                                "determinat": {
+                                    "width": "20%",
+                                    "label": "Начин на определяне"
+                                },
+                                "featureofi": {
+                                    "width": "20%",
+                                    "label": "Код на РБУ"
+                                },
+                                "returnperi": {
+                                    "width": "20%",
+                                    "label": "Период на повторение"
+                                }
+                            },
+                            "tableButtons": {},
+                            "hoverButtons": {
+                                "hoverButton_1": {
+                                    "iconUrl": {
+                                        "url": "../../Resources/icons/zoomTo.svg",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "refreshButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/refresh.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Опресни"
+                            },
+                            "mButton": {
+                                "iconUrl": {
+                                    "url": "../../Resources/buttons/m.svg",
+                                    "urlm": "configRelative"
+                                },
+                                "tooltip": "Зареди от картата"
+                            }
+                        }
+                    },
+                    "tableSettings": {
+                        "showOnStart": true,
+                        "enableRowDetails": false,
+                        "pageSize": 5,
+                        "ofText": "от",
+                        "pageText": "страница",
+                        "rowsText": "ред",
+                        "labelRowsPerPage": "Брой редове на страница",
+                        "nextIconButtonText": "Следваща страница",
+                        "backIconButtonText": "Предишна страница"
+                    }
+                },
+                "printPanel": {
+                    "enable": true,
+                    "label": "Print",
+                    "iconUrl": {
+                        "url": "../../Resources/icons/zoomTo.svg",
+                        "urlm": "configRelative"
+                    },
+                    "printServiceUrl": {
+                        "url": "https://ibbdr1081.gisinv.bg/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20m%20Task",
+                        "urlm": "absolute"
+                    }
+                },
+                "contentPanel": {
+                    "header": {
+                        "resourceUrl": {
+                            "url": "../../Resources/headerRZPRN.html",
+                            "urlm": "configRelative"
+                        }
+                    },
+                    "footer": {
+                        "resourceUrl": {
+                            "url": "../../Resources/footer.html",
+                            "urlm": "configRelative"
+                        }
+                    }
+                }
+            },
+            "panelLayout": {
+                "header": {
+                    "m": "content",
+                    "grid": {
+                        "xs": 12,
+                        "sm": 12,
+                        "md": 12,
+                        "lg": 12,
+                        "xl": 12
+                    },
+                    "height": "10%"
+                },
+                "mGroup": {
+                    "m": "group",
+                    "grid": {
+                        "xs": 12,
+                        "sm": 12,
+                        "md": 12,
+                        "lg": 12,
+                        "xl": 12
+                    },
+                    "height": "84%",
+                    "children": {
+                        "detailPanel": {
+                            "m": "tabs",
+                            "hideDirection": "left",
+                            "columnSplitter": true,
+                            "grid": {
+                                "xs": 12,
+                                "sm": 12,
+                                "md": 3,
+                                "lg": 3,
+                                "xl": 3
+                            },
+                            "ms": {
+                                "detailsTab": {
+                                    "title": "Детайли",
+                                    "m": "popup",
+                                    "render": true,
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/info.png",
+                                        "urlm": "configRelative"
+                                    }
+                                },
+                                "msTab": {
+                                    "title": "Слоеве",
+                                    "m": "ms",
+                                    "selected": true,
+                                    "render": true,
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/ms.png",
+                                        "urlm": "configRelative"
+                                    }
+                                },
+                                "legendTab": {
+                                    "title": "Легенда",
+                                    "m": "legend",
+                                    "render": true,
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/list.png",
+                                        "urlm": "configRelative"
+                                    }
+                                },
+                                "printTab": {
+                                    "title": "Експорт",
+                                    "m": "print",
+                                    "render": true,
+                                    "iconUrl": {
+                                        "url": "../../Resources/buttons/print.png",
+                                        "urlm": "configRelative"
+                                    }
+                                }
+                            },
+                            "height": "100%"
+                        },
+                        "mPanel": {
+                            "m": "group",
+                            "grid": {
+                                "xs": 12,
+                                "sm": 12,
+                                "md": 9,
+                                "lg": 9,
+                                "xl": 9
+                            },
+                            "height": "100%",
+                            "children": {
+                                "m": {
+                                    "m": "m",
+                                    "grid": {
+                                        "xs": 12,
+                                        "sm": 12,
+                                        "md": 12,
+                                        "lg": 12,
+                                        "xl": 12
+                                    },
+                                    "height": "60%"
+                                },
+                                "tables": {
+                                    "m": "tabs",
+                                    "hideDirection": "middle",
+                                    "hidden": "true",
+                                    "top": "60%",
+                                    "grid": {
+                                        "xs": 12,
+                                        "sm": 12,
+                                        "md": 12,
+                                        "lg": 12,
+                                        "xl": 12
+                                    },
+                                    "ms": {
+                                        "BG4ApsfrFloods0": {
+                                            "title": "РЗПРН 2022-2027 (точка)",
+                                            "m": "table",
+                                            "render": true
+                                        },
+                                        "BG4ApsfrFloods1": {
+                                            "title": "РЗПРН 2022-2027 (линия)",
+                                            "m": "table",
+                                            "render": true
+                                        },
+                                        "BG4ApsfrFloods2": {
+                                            "title": "РЗПРН 2022-2027 (полигон)",
+                                            "m": "table",
+                                            "render": true
+                                        },
+                                        "BG4ApsfrFloods6": {
+                                            "title": "Минали наводнения (линия)",
+                                            "m": "table",
+                                            "render": true
+                                        },
+                                        "BG4ApsfrFloods7": {
+                                            "title": "Минали наводнения (полигон)",
+                                            "m": "table",
+                                            "render": true
+                                        },
+                                        "BG4ApsfrFloods8": {
+                                            "title": "Значими наводнения преди 2011 - точки",
+                                            "m": "table",
+                                            "render": true
+                                        },
+                                        "BG4ApsfrFloods9": {
+                                            "title": "Значими наводнения преди 2011 - линии",
+                                            "m": "table",
+                                            "render": true
+                                        },
+                                        "BG4ApsfrFloods10": {
+                                            "title": "Значими наводнения преди 2011 - полигон",
+                                            "m": "table",
+                                            "render": true
+                                        },
+                                        "BG4ApsfrFloods12": {
+                                            "title": "Потенциални бъдещи наводнения точки",
+                                            "m": "table",
+                                            "render": true
+                                        },
+                                        "BG4ApsfrFloods13": {
+                                            "title": "Потенциални бъдещи наводнения линии",
+                                            "m": "table",
+                                            "render": true
+                                        }
+                                    },
+                                    "height": "40%"
+                                }
+                            }
+                        }
+                    }
+                },
+                "footer": {
+                    "m": "content",
+                    "grid": {
+                        "xs": 12,
+                        "sm": 12,
+                        "md": 12,
+                        "lg": 12,
+                        "xl": 12
+                    },
+                    "height": "5%"
+                }
+            }
+        },
+        "controller": {
+            "link_draw_mm": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/button_draw_mm",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "drawMeasurements",
+                        "id": "drawmmLengthSum"
+                    }
+                ]
+            },
+            "link_draw_mm_length_label": {
+                "sources": [{
+                        "id": "link_draw_mm",
+                        "activity": "drawEnd"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "views/mTools/labelTools/lengthsLabeling",
+                        "activity": "lengthsLabeling"
+                    }
+                ]
+            },
+            "link_draw_mgon_vertex_coor": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/button_draw_mgon_vertex_coor",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "drawMeasurements",
+                        "id": "drawmgonArea"
+                    }
+                ]
+            },
+            "link_draw_mgon_area_label": {
+                "sources": [{
+                        "id": "link_draw_mgon_vertex_coor",
+                        "activity": "drawEnd"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "views/mTools/labelTools/areaLabeling",
+                        "activity": "areaLabeling"
+                    }, {
+                        "id": "views/mTools/labelTools/lengthsLabeling",
+                        "activity": "lengthsLabeling"
+                    }
+                ]
+            },
+            "link_mgonBtn": {
+                "sources": [{
+                        "id": "mTools/findCoordinates/buttons/actions/mgonBtn",
+                        "activity": "coordinatemgon"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }, {
+                        "activity": "zoomToFeature",
+                        "mZoomScale": 1000
+                    }
+                ]
+            },
+            "link_mBtn": {
+                "sources": [{
+                        "id": "mTools/findCoordinates/buttons/actions/mBtn",
+                        "activity": "coordinatem"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }, {
+                        "activity": "zoomToFeature",
+                        "mZoomScale": 1000
+                    }
+                ]
+            },
+            "link_multimBtn": {
+                "sources": [{
+                        "id": "mTools/findCoordinates/buttons/actions/multimBtn",
+                        "activity": "coordinateMultim"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }, {
+                        "activity": "zoomToFeature",
+                        "mZoomScale": 1000
+                    }
+                ]
+            },
+            "link_mmBtn": {
+                "sources": [{
+                        "id": "mTools/findCoordinates/buttons/actions/mmBtn",
+                        "activity": "coordinatemm"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }, {
+                        "activity": "zoomToFeature",
+                        "mZoomScale": 1000
+                    }
+                ]
+            },
+            "link_zoomToDetailsFeature": {
+                "sources": [{
+                        "id": "panels/detailsPanel/buttons/zoomToFeature",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_searchButton_2": {
+                "sources": [{
+                        "id": "mTools/searchTool/hoverButtons/searchButton_2",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods0HoverClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods0/hoverButtons/hoverButton_1",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods1HoverClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods1/hoverButtons/hoverButton_1",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods2HoverClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods2/hoverButtons/hoverButton_1",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods6HoverClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods6/hoverButtons/hoverButton_1",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods7HoverClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods7/hoverButtons/hoverButton_1",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_tableHoverClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods12/hoverButtons/hoverButton_1",
+                        "activity": "click"
+                    },
+                    {
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods13/hoverButtons/hoverButton_1",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_createFailure": {
+                "sources": [{
+                        "id": "createFailure",
+                        "activity": "createFailure"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "detailPanel/createTab",
+                        "activity": "openPanel"
+                    }, {
+                        "activity": "zoomToFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_createSuccess": {
+                "sources": [{
+                        "id": "createSuccess"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }, {
+                        "activity": "clearCreateFeature"
+                    }, {
+                        "id": "createTab",
+                        "activity": "hideTab"
+                    }, {
+                        "id": "detailPanel/detailPanel/detailsTab",
+                        "activity": "openPanel"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods0RowClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods0",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }, {
+                        "id": "detailPanel/detailsTab",
+                        "activity": "openPanel"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods1RowClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods1",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }, {
+                        "id": "detailPanel/detailsTab",
+                        "activity": "openPanel"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods2RowClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods2",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }, {
+                        "id": "detailPanel/detailsTab",
+                        "activity": "openPanel"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods6RowClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods6",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }, {
+                        "id": "detailPanel/detailsTab",
+                        "activity": "openPanel"
+                    }
+                ]
+            },
+            "link_tableBG4ApsfrFloods7RowClick": {
+                "sources": [{
+                        "id": "panels/attributeTablePanel/BG4ApsfrFloods7",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }, {
+                        "id": "detailPanel/detailsTab",
+                        "activity": "openPanel"
+                    }
+                ]
+            },
+            "link_searchIdentify_1": {
+                "sources": [{
+                        "id": "mTools/searchTool/searchGroups/AnnoLandcoverSearchGroup/inputTextBoxes/AnnoLandcoverTextBox",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "activity": "previewFeature"
+                    }, {
+                        "activity": "openPanel"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_searchIdentify_2": {
+                "sources": [{
+                        "id": "mTools/searchTool/searchGroups/ApsfrmGroupBG4/inputTextBoxes/apsfrmGroupBG",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "zoomToFeature"
+                    }, {
+                        "activity": "previewFeature"
+                    }, {
+                        "activity": "openPanel"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_showInDetailsButton_1": {
+                "sources": [{
+                        "id": "mTools/searchTool/buttons/showInDetailsButton",
+                        "activity": "click"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }, {
+                        "id": "detailPanel/detailsTab",
+                        "activity": "openPanel"
+                    }
+                ]
+            },
+            "link_userIdentify": {
+                "sources": [{
+                        "id": "mClick",
+                        "activity": "identifyFeature"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "userIdentify_end",
+                        "activity": "identifyFeature"
+                    }
+                ]
+            },
+            "link_userIdentify_end": {
+                "sources": [{
+                        "id": "userIdentify_end",
+                        "activity": "identifyFeature"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }, {
+                        "id": "detailPanel/detailsTab",
+                        "activity": "openPanel"
+                    }
+                ]
+            },
+            "link_detailPreview": {
+                "sources": [{
+                        "id": "previewFeature",
+                        "activity": "previewFeature"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }
+                ]
+            },
+            "link_createNew": {
+                "sources": [{
+                        "id": "createFeature",
+                        "activity": "createFeature"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "createFeature"
+                    }
+                ]
+            },
+            "link_detailEdit": {
+                "sources": [{
+                        "id": "editFeature",
+                        "activity": "editFeature"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "editFeature"
+                    }
+                ]
+            },
+            "link_uiSearchGroup1": {
+                "sources": [{
+                        "id": "mComponents/uiSearchGroup1",
+                        "activity": "resultmSelected"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "panToFeature"
+                    }, {
+                        "activity": "zoomToFeature",
+                        "mZoomScale": 5000
+                    }, {
+                        "activity": "labelFeature"
+                    }, {
+                        "activity": "popupFeature"
+                    }, {
+                        "id": "data/symbolGallery/cyanSymbolSet",
+                        "activity": "mFeature"
+                    }
+                ]
+            },
+            "link_StartUp": {
+                "sources": [{
+                        "id": "AppStart",
+                        "activity": "mInitialized"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "bookmarks/ibbdrHome",
+                        "activity": "zoomToBookmark"
+                    }, {
+                        "id": "mGroups/OpenStreetm",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "No_Basem": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/No_Basem",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/No_Basem",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "World_Dark_Gray": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/World_Dark_Gray",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/World_Dark_Gray",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "World_Imagery": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/World_Imagery",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/World_Imagery",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "World_Imagery_With_Labels": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/World_Imagery_With_Labels",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/World_Imagery_With_Labels",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "World_Street_m": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/World_Street_m",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/World_Street_m",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "World_Topo_m": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/World_Topo_m",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/World_Topo_m",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "World_Light_Gray": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/World_Light_Gray",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/World_Light_Gray",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "NatGeo_World_m": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/NatGeo_World_m",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/NatGeo_World_m",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "World_Terrain": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/World_Terrain_Base",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/World_Terrain",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "Ocean_Basem": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/Ocean_Basem",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/Ocean_Basem",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "OpenStreetm": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/basems1/ms/OpenStreetm",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "mGroups/OpenStreetm",
+                        "activity": "replaceVisibleBasem"
+                    }
+                ]
+            },
+            "link_clear": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/button_clear_selection",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "activity": "clearSelection"
+                    }
+                ]
+            },
+            "link_draw": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/button_rect_search",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "identifyRect",
+                "destinations": [{
+                        "activity": "previewFeature"
+                    }
+                ]
+            },
+            "link_home": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/button_home",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "bookmarks/ibbdrHome",
+                        "activity": "zoomToBookmark"
+                    }
+                ]
+            },
+            "link_struma": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/bookmarks1/ms/button_struma",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "bookmarks/river18",
+                        "activity": "zoomToBookmark"
+                    }
+                ]
+            },
+            "link_mesta": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/bookmarks1/ms/button_mesta",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "bookmarks/river23",
+                        "activity": "zoomToBookmark"
+                    }
+                ]
+            },
+            "link_dospat": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/bookmarks1/ms/button_dospat",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "execute",
+                "destinations": [{
+                        "id": "bookmarks/river26",
+                        "activity": "zoomToBookmark"
+                    }
+                ]
+            },
+            "link_previous_extent": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/button_previous_extent",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "behaviourPreviousExtent",
+                "destinations": [{
+                        "activity": "previousExtent"
+                    }
+                ]
+            },
+            "link_next_extent": {
+                "sources": [{
+                        "id": "mComponents/buttongroup1/ms/button_next_extent",
+                        "activity": "clicked"
+                    }
+                ],
+                "actionm": "behaviourNextExtent",
+                "destinations": [{
+                        "activity": "nextExtent"
+                    }
+                ]
+            }
+        }
+    }
+}

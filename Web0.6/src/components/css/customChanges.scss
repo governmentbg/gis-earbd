@@ -1,0 +1,171 @@
+.panel-hover-button-color {
+  border: 0px #69b7fa;
+  background-color: #69b7fa;
+}
+
+.MuiTooltip-tooltip {
+  background-color: #69b7fa !important;
+}
+
+.buttons-main-color {
+  background-color: #69b7fa !important;
+  color: white !important;
+}
+
+.table-app .th-app {
+  background: #69b7fa;
+}
+
+.table-app .tbody-app {
+  min-width: 1500px;
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
+  border-bottom: 5px solid #69b7fa;
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit:hover {
+  border-bottom: 5px solid #69b7fa;
+}
+
+.accordion-sum.level1 {
+  background-color: #f5f5f5;
+}
+
+.accordion-sum.level2 {
+  background-color: #69b7fa;
+  color: #ffffff;
+}
+
+.documents__singleDocument__mimem {
+  background-color: #69b7fa;
+}
+
+.documentObject__displaym {
+  background: #69b7fa;
+}
+
+.error-message-style {
+  
+  color: #dd0505;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  pming: 0;
+  margin: 0;
+  font-size: 12px;
+  height: 22px;
+
+}
+.form-control-edit-field{
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: inm-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4D4D4D;
+  text-transform: none;
+}
+
+
+.text-area-input:hover {
+
+  border-color: #050505 !important;
+  border-width: 1px!important;
+  min-height: 30px !important;
+  border-radius: 4px !important;
+  width: 100%;
+  min-height: 30px;
+  max-width: 100%;
+
+}
+
+.text-area-input:focus {
+
+  border-color: #69b7fa !important;
+  border-width: 2px !important;
+  min-height: 30px !important;
+  border-radius: 4px !important;
+  width: 100%;
+  min-height: 30px;
+  max-width: 100%;
+
+}
+
+.text-area-input {
+
+  border-color: #c4c4c4 !important;
+  border-width: 1px !important;
+  min-height: 30px !important;
+  border-radius: 4px !important;
+  width: 100%;
+  min-height: 30px;
+  max-width: 100%;
+
+}
+
+.text-area-input-error {
+
+  border-color: #dd0505 !important;
+  border-width: 1px !important;
+  min-height: 30px !important;
+  border-radius: 4px !important;
+  width: 100%;
+  min-height: 30px;
+  max-width: 100%;
+
+}
+
+.edit-feature-label {
+
+  width: 100%;
+  display: inm-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #7F7F7F;
+  text-transform: none !important;
+
+}
+
+.MuiOutmdInput-input {
+  pming-left: 6px !important;
+  pming-top: 6px !important;
+  pming-bottom: 6px !important;
+}
+.documents {
+  margin-top: 0px;
+}
+
+.MuiButton-containedPrimary{
+  color: white !important;
+}
+
+.title-paper {
+  position: absolute;
+  top: -14px;
+  background-color: #ffffff;
+  left: 15px;
+  color: rgba(0,0,0,0.63);
+  z-index: 100;
+  font-size: 14px;
+}
+
+.paper-details {
+  margin-top: 14px;
+  position: relative;
+  pming: 10px;
+  pming-top: 10px;
+  pming-right: 10px;
+  pming-bottom: 10px;
+  pming-left: 10px;
+  width: 100%;
+}
+
+div[role=tabpanel] > div {
+  height: calc(100% - 5px) !important;
+}

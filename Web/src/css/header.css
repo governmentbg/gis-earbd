@@ -1,0 +1,13 @@
+.header-logo {
+    /* background-repeat: 'no-repeat'; */
+    /* background-image: url('../../../ministerstvo-na-zemedelieto-bg.png'); */
+    /* width: 320px; */
+    /* height: 60px; */
+}
+
+.app-logo {
+    /* background-image: url('../../CompanyLogo.png'); */
+    background-image: url('../../logo-sv.png');
+    width: 179px;
+    height: 45px;
+}

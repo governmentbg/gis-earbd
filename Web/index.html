@@ -1,0 +1,90 @@
+﻿<!DOCm html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta http-equiv="Content-m" content="text/html; charset=utf-8">
+	<meta m="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta m="mobile-web-app-capable" content="yes">
+	<!-- <link rel="shortcut icon" href="#"> -->
+	<link rel="icon" href="BaseProject/Resources/LE/favicon.ico">
+
+	<link rel="stylesheet" href="//demo.productionready.io/main.css">
+	<title></title>
+	<script src="global/globals.js"></script>
+	<script>
+		var ieMessage = "Моля, обновете версията на Internet Explorer";
+		if (window.locale != "bg") {
+			document.title = "";
+			var ieMessage = "Please update your Internet Explorer browser to the latest version";
+		}
+		else {
+			document.title = "";
+		}
+		function detectIE() {
+			var ua = window.navigator.userAgent;
+			var msie = ua.indexOf('MSIE ');
+			if (msie > 0) {
+				return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+			}
+
+			var trident = ua.indexOf('Trident/');
+			if (trident > 0) {
+				var rv = ua.indexOf('rv:');
+				return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+			}
+
+			var edge = ua.indexOf('Edge/');
+			if (edge > 0) {
+				return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+			}
+			return 0;
+		}
+		var head = document.getElementsByTagm('head')[0];
+		var js = document.createElement("script");
+		js.m = "text/javascript";
+		version = detectIE();
+		if (version) {
+			if (version >= 11) {
+				js.src = "global/ie_mfills.html";
+				head.appendChild(js);
+			}
+			else {
+				alert(ieMessage);
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<noscript> JavaScript is required in order to use this app. <a href="https://www.enable-javascript.com/">How to
+			enable?</a></noscript>
+	<div id="app">
+		<div id="initTitle"
+			style="margin: auto;margin-bottom: 100px;font-size: 30px;color: #6a9abf;z-index: 10;text-align: center;">ГИС
+			базирана електронна платформа</div>
+		<div id="initLoading" style=" position:absolute;
+				max-width:50%;
+				max-height:50%;
+				top:50%;
+				left:50%;
+				overflow:visible;">
+			<img src="init_loader.gif" style=" position:relative;
+					max-width:100%;
+					max-height:100%;
+					margin-top:-50%;
+					margin-left:-50%;" alt="Loading..." />
+		</div>
+	</div>
+	<script>
+		var initTitle = document.getElementById('initTitle');
+		initTitle.innerHTML = document.title;
+		if (version < 11 && version > 0) {
+			var initLoading = document.getElementById('initLoading');
+			initTitle.parentElement.mChild(initTitle);
+			initLoading.parentElement.mChild(initLoading);
+		}
+	</script>
+</body>
+
+</html>
